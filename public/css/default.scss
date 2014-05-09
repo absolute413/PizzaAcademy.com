@@ -27,11 +27,17 @@ body {
     background-image: url(../img/brick.png);
 }
 
-a,
-a:hover,
+a {
+    &,
+    &:hover,
+    &:focus {
+        color: $color-primary;
+    }
+}
+/*a:hover,
 a:focus {
     color: $color-primary;
-}
+}*/
 
 small {
     color: $color-primary;
@@ -91,12 +97,12 @@ small {
 .sidebar-nav-item:hover,
 .sidebar-nav-item:focus {
     background-color: #333;
-    border-color: #921;
+    border-color: $color-primary;
     box-shadow: inset 0 0 12px #111;//rgba(0,0,0,0.6);
 }
 .sidebar-nav-item.active {
-    background-color: #921;
-    border-color: #921;
+    background-color: $color-primary;
+    border-color: $color-primary;
     box-shadow: inset 0 0 12px #111;//rgba(0,0,0,0.6);
 }
 
@@ -148,5 +154,4 @@ small {
 .menu-table > tbody > tr > td {
     border-top: none;
     border-bottom: 1px dotted #ddd;
-    //border-top-style: dotted;
 }
