@@ -1,15 +1,19 @@
 # Configuration
-kramdown            :
-  input             : GFM
+kramdown:
+  input: GFM
 
-permalink           : pretty
-relative_permalinks : false
+permalink: pretty
+relative_permalinks: false
 
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
 
+sass:
+  style: :compressed
+  sass_dir: _sass
+
 # Metadata
-title               : Pizza Academy
-tagline             : Subs, Salads & Roast Beef
-description         : Open 7 days a week, and we always offer delivery.
+title: Pizza Academy
+tagline: Subs, Salads & Roast Beef
+description: Open 7 days a week, and we always offer delivery.
