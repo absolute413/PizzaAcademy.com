@@ -1,0 +1,31 @@
+<div class="sidebar">
+    <div class="sidebar-header">
+        <button type="button" class="sidebar-toggle" data-toggle="collapse" data-target="#sidebar-nav-collapse">
+            <div class="icon-bar"></div>
+            <div class="icon-bar"></div>
+            <div class="icon-bar"></div>
+        </button>
+
+        <img class="img-responsive hidden-sm hidden-xs" alt="{{ site.title }}" src="{{ site.github.url }}/public/img/logo.png">
+
+        <h1 class="sidebar-brand visible-sm visible-xs">{{ site.title }}</h1>
+    </div>
+
+    <div class="collapse sidebar-collapse" id="sidebar-nav-collapse">
+        <ul class="nav sidebar-nav">
+            {% for weight in (1...site.pages.size) %}
+                {% for node in site.pages %}
+                    {% if node.weight == weight %}
+                        <li class="nav-item sidebar-nav-item {% if (page.url == node.url) %}active{% endif %}">
+                            <a href="{{ site.github.url }}{{ node.url }}">{{ node.title }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="sidebar-footer">
+        <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+    </div>
+</div>

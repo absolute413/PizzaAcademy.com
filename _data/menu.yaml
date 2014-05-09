@@ -1,0 +1,870 @@
+- name: North Shore Roast Beef
+  desc: []
+  sizes:
+    - small
+    - large
+  items:
+    - name: Super
+      desc:
+      prices:
+        - null
+        - $5.60
+    - name: Regular
+      desc:
+      prices:
+        - null
+        - $4.50
+    - name: Calzone
+      desc:
+      prices:
+        - $7.10
+        - $10.00
+    - name: Pizza
+      desc: with BBQ Sauce, Cheese & Mayo
+      prices:
+        - $9.76
+        - $14.50
+
+
+- name: Appetizers
+  desc: []
+  sizes:
+    - small
+    - large
+  items:
+    - name: Spinach Pie Home Made
+      desc:
+      prices:
+        - null
+        - $3.75
+    - name: Mac N' Cheese Bits
+      desc: 10pcs
+      prices:
+        - null
+        - $3.99
+    - name: Bosco Sticks
+      desc: +50c for Marinara Sauce
+      prices:
+        - null
+        - $1.25
+    - name: Jalapeno Poppers
+      desc: 7pcs, Stuffed with Cream Cheese
+      prices:
+        - null
+        - $4.99
+    - name: Onion Rings
+      desc:
+      prices:
+        - null
+        - $4.99
+    - name: French Fries
+      desc:
+      prices:
+        - $2.95
+        - $4.75
+    - name: Spicy Fries
+      desc:
+      prices:
+        - $3.50
+        - $5.75
+    - name: Eggplant French Fries
+      desc: Side of Marinara Sauce
+      prices:
+        - $3.50
+        - $6.50
+    - name: Sweet Potato Fries
+      desc:
+      prices:
+        - $3.50
+        - $6.50
+    - name: Mushroom Caps
+      desc:
+      prices:
+        - null
+        - $5.25
+    - name: Garlic Bread
+      desc:
+      prices:
+        - null
+        - $2.25
+    - name: Garlic Bread Topped with a Blend of Cheeses
+      desc: Side of Marinara Sauce
+      prices:
+        - null
+        - $3.95
+    - name: Garlic Bread Special with Tomato & Bacon
+      desc: Side of Marinara Sauce
+      prices:
+        - null
+        - $4.95
+    - name: Mozzarella Cheese Sticks
+      desc: 8pcs with Marinara Sauce
+      prices:
+        - null
+        - $5.95
+    - name: Buffalo Mozzarella Sticks
+      desc: 8pcs w/ Spicy Marinara Sauce
+      prices:
+        - null
+        - $6.50
+    - name: Chicken Wings
+      desc: sm/7pcs lg/15pcs
+      prices:
+        - $5.65
+        - $9.75
+    - name: Hot Wings
+      desc: sm/7pcs lg/15pcs
+      prices:
+        - $6.95
+        - $10.75
+    - name: Sweet Thai Chili Hot Wings
+      desc: sm/7pcs lg/15pcs
+      prices:
+        - $6.95
+        - $10.75
+    - name: Boneless Buffalo Fingers
+      desc: sm/7pcs lg/15pcs
+      prices:
+        - $6.95
+        - $10.75
+    - name: Chicken Fingers
+      desc: sm/5pcs lg/10pcs
+      prices:
+        - $5.65
+        - $9.75
+    - name: Fried 3 Cheese Ravioli
+      desc: 9pcs with marinara sauce
+      prices:
+        - null
+        - $5.95
+
+
+-
+  name: Pizza
+  desc: []
+  sizes:
+    - small
+    - large
+  items:
+    - name: Multi-Grain Crust
+      desc: Large size only / No extra charge
+      prices:
+        - null
+        - null
+    - name: Cheese
+      desc: Red Sauce or White Sauce
+      prices:
+        - $6.90
+        - $9.75
+    - name: 1 Topping
+      desc:
+      prices:
+        - $7.70
+        - $11.35
+    - name: 2 Toppings
+      desc:
+      prices:
+        - $8.70
+        - $12.85
+    - name: 3 Toppings
+      desc:
+      prices:
+        - $9.70
+        - $14.50
+    - name: 4 Toppings
+      desc:
+      prices:
+        - $10.75
+        - $16.15
+
+
+- name: Toppings
+  desc:
+    - Anchovies, Hamburger, Pepperoncini, Ham, Olives, Artichoke Hearts, Mushrooms, Spinach, Steak, Peppers, Roasted Peppers, Meatball, Sausage (Hot), Salami, Onion, Pepperoni, Tomato, Pineapple, Broccoli, Garlic, Jalapeno, Bacon, Feta Cheese, Chicken
+  sizes: []
+  items: []
+
+
+- name: Specialty Pizza
+  desc: []
+  sizes:
+    - small
+    - large
+  items:
+    - name: Alfredo
+      desc:
+      prices:
+        - $6.90
+        - $10.99
+    - name: Beach Style
+      desc:
+      prices:
+        - $6.90
+        - $9.75
+    - name: Sloppy Joe
+      desc:
+      prices:
+        - $9.99
+        - $14.50
+    - name: Mac & Cheese
+      desc:
+      prices:
+        - $7.70
+        - $11.35
+    - name: Smoked BBQ Pork
+      desc: Smoked with Apple & Cherry Wood, in house for 12 hours
+      prices:
+        - $9.70
+        - $14.50
+    - name: Chicken Caesar
+      desc: Marinated Chicken, Romaine Lettuce & Parmesan Cheese with Alfredo Sauce
+      prices:
+        - $9.80
+        - $14.50
+    - name: Chicken Cordon Blue
+      desc: Grilled Chicken, Ham, Broccoli & White Sauce
+      prices:
+        - $9.80
+        - $13.95
+    - name: 4 Cheese Pizza
+      desc: Parmesan, Cheddar, Mozzarella & Provolone
+      prices:
+        - $9.80
+        - $13.95
+    - name: BLT
+      desc: Bacon, Lettuce & Tomato
+      prices:
+        - $9.80
+        - $14.50
+    - name: Hawaiian
+      desc: Ham & Pineapple
+      prices:
+        - $9.70
+        - $12.85
+    - name: BBQ Chicken
+      desc:
+      prices:
+        - $9.80
+        - $14.50
+    - name: Buffalo Chicken
+      desc:
+      prices:
+        - $9.80
+        - $14.50
+    - name: Grilled Chicken
+      desc:
+      prices:
+        - $9.00
+        - $12.85
+    - name: Chicken & Broccoli
+      desc: Add Alfredo Sauce for $0.60/sm or $1.20/lg
+      prices:
+        - $9.70
+        - $14.50
+    - name: Mexican
+      desc: Salsa, Refreid Beans, Hamburger & Jalapeno
+      prices:
+        - $9.99
+        - $14.50
+    - name: Inferno
+      desc: Buffalo Fingers, Jalapenos & Hot Sauce
+      prices:
+        - $9.99
+        - $14.50
+    - name: Phil Steak
+      desc:
+      prices:
+        - $9.75
+        - $14.50
+    - name: Greek Pizza
+      desc: Feta, Tomatoes & Greek Olives
+      prices:
+        - $9.75
+        - $14.50
+    - name: North Shore Roast Beef
+      desc: with BBQ Sauce, Cheese & Mayo
+      prices:
+        - $9.75
+        - $14.50
+    - name: Combination Pizza
+      desc:
+      prices:
+        - $11.25
+        - $17.25
+    - name: Meat Combo
+      desc:
+      prices:
+        - $11.25
+        - $17.25
+    - name: Vegetarian Combo
+      desc:
+      prices:
+        - $11.25
+        - $17.25
+    - name: Greek Salad
+      desc:
+      prices:
+        - $9.70
+        - $14.50
+
+
+- name: Calzones
+  desc:
+    - Any Item on the menu may be used, Chicken & Beef count as double toppings
+  sizes:
+    - small
+    - large
+  items:
+    - name: Cheese
+      desc:
+      prices:
+        - $4.95
+        - $7.95
+    - name: North Shore Roast Beef
+      desc:
+      prices:
+        - $7.10
+        - $10.00
+    - name: 1 Topping
+      desc:
+      prices:
+        - $6.75
+        - $10.00
+    - name: 2 Toppings
+      desc:
+      prices:
+        - $7.75
+        - $11.00
+    - name: 3 Toppings
+      desc:
+      prices:
+        - $8.75
+        - $12.00
+    - name: Combo
+      desc:
+      prices:
+        - $10.95
+        - $14.75
+    - name: Chicken / Broccoli Alfredo
+      desc:
+      prices:
+        - $8.75
+        - $12.00
+
+
+- name: Subs & Wraps (Hot)
+  desc: []
+  sizes:
+    - small
+    - large
+  items:
+    - name: Falafel
+      desc: Fried Chicken Peas / Marinated Turnip & Pickle, Special Ranch Blend
+      prices:
+        - $5.55
+        - $6.65
+    - name: Pulled BBQ Smoked Pork
+      desc: Smoked in House for 12 hours with Apple & Cherry Wood
+      prices:
+        - $5.55
+        - $6.65
+    - name: Grilled Chicken Caesar
+      desc: Grilled Chicken, Romaine, Home / Croutons Shredded Parm Cheese in Wrap
+      prices:
+        - $5.55
+        - $6.65
+    - name: Chicken Cutlet
+      desc: Chicken Breast
+      prices:
+        - $5.55
+        - $6.65
+    - name: Grilled Chicken
+      desc: Chicken Tenderloins
+      prices:
+        - $5.55
+        - $6.65
+    - name: Buffalo Chicken Finger
+      desc: Spicy Chicken Strips
+      prices:
+        - $5.55
+        - $6.65
+    - name: Inferno Chicken Finger
+      desc: Our Hottest Chicken Strips
+      prices:
+        - $5.55
+        - $6.65
+    - name: Chicken Finger
+      desc: Chicken Tenderloins
+      prices:
+        - $5.55
+        - $6.65
+    - name: Meatball
+      desc: Italian Meat Balls
+      prices:
+        - $5.55
+        - $6.65
+    - name: BLT
+      desc: Bacon Lettuce & Tomato
+      prices:
+        - $5.55
+        - $6.65
+    - name: Ham & Egg
+      desc:
+      prices:
+        - $5.55
+        - $6.65
+    - name: Pepper & Egg
+      desc:
+      prices:
+        - $5.55
+        - $6.65
+    - name: Gyro
+      desc: Stuffer with Strips or Beef, Lettuce Tomato French Fries and Tzatziki Sauce
+      prices:
+        - $5.55
+        - $6.65
+    - name: Veal Cutlet
+      desc:
+      prices:
+        - $5.55
+        - $6.65
+    - name: Steak Tip
+      desc: Italian Marinated Tips
+      prices:
+        - $6.65
+        - $7.75
+    - name: Haddock Tail
+      desc: Beer Battered
+      prices:
+        - $6.65
+        - $7.75
+    - name: Paul's Super
+      desc: Toasted with Roast Beef, Ham, Bacon, Cheese & Fresh Vegetables
+      prices:
+        - $5.55
+        - $6.65
+    - name: Cheeseburger
+      desc:
+      prices:
+        - $5.55
+        - $6.65
+    - name: Pastrami
+      desc: 95 # Lean
+      prices:
+        - $5.55
+        - $6.65
+    - name: Sausage Bomb
+      desc: Our Spicy Sausage with Peppers Onions Marinara & Provolone Cheese
+      prices:
+        - $5.55
+        - $6.65
+    - name: Grilled Veggie
+      desc: Roasted Peppers, Onions, Mushrooms & American Cheese...grilled!
+      prices:
+        - $5.55
+        - $6.65
+    - name: Eggplant Cutlet
+      desc:
+      prices:
+        - $5.55
+        - $6.65
+    - name: CMF
+      desc: Chicken Tenders, Mozzarella Sticks & French Fries
+      prices:
+        - $6.55
+        - $7.75
+    - name: North Shore Sub
+      desc: Roast Beef with Sauce, Cheese & Mayo
+      prices:
+        - $5.55
+        - $6.65
+    - name: Grilled Chicken Thai
+      desc: Sweet Thai Chili Sauce
+      prices:
+        - $5.55
+        - $6.65
+
+
+- name: Subs & Wraps (Cold)
+  desc: []
+  sizes:
+    - small
+    - large
+  items:
+    - name: Chicken Salad
+      desc: Chicken, Tomato, Cabbage, Carrot, Peppers, Radish & Mayo
+      prices:
+        - $5.55
+        - $6.65
+    - name: Italian
+      desc: Mortadella, Hot Ham, Genoa Salami & Provolone Cheese
+      prices:
+        - $5.55
+        - $6.65
+    - name: American
+      desc: American Cheese, Ham & Hot Ham & Mortadella
+      prices:
+        - $5.55
+        - $6.65
+    - name: Light Tuna
+      desc: Baby Yellowtail, All White
+      prices:
+        - $5.55
+        - $6.65
+    - name: Smoked Turkey
+      desc: 98% Fat Free Smoked
+      prices:
+        - $5.55
+        - $6.65
+    - name: Beef, Bacon & Turkey
+      desc: Toasted with Cheese
+      prices:
+        - $5.55
+        - $6.65
+    - name: Roast Beef
+      desc: In House Cooked
+      prices:
+        - $5.55
+        - $6.65
+    - name: Imported Ham & Cheese
+      desc:
+      prices:
+        - $5.55
+        - $6.65
+    - name: Vegetarian
+      desc: American & Provolone Cheese with Lettuce, Tomatoes, Pickles & Onions
+      prices:
+        - $5.55
+        - $6.65
+    - name: Kiki's Veggie
+      desc: On Syrian, with Lettuce, Tomato, Onions, Peppers, Feta Cheese, Mushrooms & Greek Olives & House Dressing
+      prices:
+        - $5.55
+        - $6.65
+
+
+- name: Subs & Wraps (Steak)
+  desc:
+    - Try and sub with Teriyaki sauce or Hot Sauce! Italian roll, Syrian or Tortilla wraps!
+  sizes:
+    - small
+    - large
+  items:
+    - name: Steak Cheese
+      desc:
+      prices:
+        - $5.55
+        - $6.55
+    - name: Steak Plain
+      desc:
+      prices:
+        - $5.55
+        - $6.55
+    - name: Steak Pepperoni
+      desc:
+      prices:
+        - $5.55
+        - $6.55
+    - name: Steak Roasted Pepper
+      desc:
+      prices:
+        - $5.55
+        - $6.55
+    - name: Steak Onion
+      desc:
+      prices:
+        - $5.55
+        - $6.55
+    - name: Steak Bomb
+      desc: Peppers, Onions, Cheese & Tomato
+      prices:
+        - $5.95
+        - $6.95
+    - name: Steak Mushroom
+      desc:
+      prices:
+        - $5.55
+        - $6.55
+    - name: Steak & Egg
+      desc:
+      prices:
+        - $5.55
+        - $6.55
+    - name: Steak Teriyaki
+      desc:
+      prices:
+        - $5.55
+        - $6.55
+    - name: Steak Garlic
+      desc:
+      prices:
+        - $5.55
+        - $6.55
+
+
+- name: Soups (Winter Months)
+  desc: []
+  sizes:
+    - price
+  items:
+    - name: Avgolemono
+      desc: Chicken, Rice & Lemon
+      prices:
+        - $3.95
+    - name: French Onion
+      desc:
+      prices:
+        - $3.95
+    - name: Chicken Noodle
+      desc:
+      prices:
+        - $3.95
+
+
+- name: Salads
+  desc:
+    - "Syrian Bread / Choice of Dressing: Blue Cheese, Caesar, Greek, Ranch, Lite Italian, Italian, White Zinfandel, Balsamic Vinaigrette, Parmesan Peppercorn or House"
+  sizes:
+    - small
+    - large
+  items:
+    - name: Garden
+      desc:
+      prices:
+        - $4.25
+        - $5.95
+    - name: Greek
+      desc:
+      prices:
+        - $4.50
+        - $7.25
+    - name: Tuna
+      desc:
+      prices:
+        - $4.50
+        - $7.95
+    - name: Chef
+      desc:
+      prices:
+        - $4.10
+        - $7.50
+    - name: Chicken
+      desc:
+      prices:
+        - $4.10
+        - $7.50
+    - name: Grilled Chicken
+      desc:
+      prices:
+        - $4.75
+        - $7.95
+    - name: Buffalo Chicken Finger
+      desc:
+      prices:
+        - null
+        - $7.95
+    - name: Buffalo Chicken Finger Caesar
+      desc:
+      prices:
+        - null
+        - $7.95
+    - name: Caesar
+      desc:
+      prices:
+        - $4.25
+        - $5.95
+    - name: Grilled Chicken Caesar
+      desc:
+      prices:
+        - $4.75
+        - $7.95
+    - name: Steak Tip
+      desc:
+      prices:
+        - null
+        - $9.25
+    - name: Steak Tip Caesar
+      desc:
+      prices:
+        - null
+        - $9.25
+    - name: BBQ Chicken Finger
+      desc:
+      prices:
+        - null
+        - $7.95
+    - name: BBQ Grilled Chicken
+      desc:
+      prices:
+        - null
+        - $7.95
+
+
+- name: Pasta
+  desc:
+    - Every Wednesday, $5.00 Spaghetti or Ziti with 1 topping!
+    - Veal, Chicken Cutlet, Chicken Tenderloin, Sausage (spicy), Eggplant, Grilled Chicken, Buffalo Chicken (spicy) or Meat Balls
+  sizes:
+    - price
+  items:
+    - name: Sauce & Cheese
+      desc:
+      prices:
+        - $4.99
+    - name: 1 Topping
+      desc:
+      prices:
+        - $6.95
+    - name: Lasagna
+      desc:
+      prices:
+        - $6.95
+    - name: Alfredo
+      desc:
+      prices:
+        - $6.95
+    - name: Chicken, Broccoli Alfredo
+      desc:
+      prices:
+        - $8.50
+
+
+- name: Dinners
+  desc:
+    - Served with French Fries, Onion Rings & Salad or Rice & Salad
+  sizes:
+    - price
+  items:
+    - name: Chicken Finger
+      desc:
+      prices:
+        - $7.75
+    - name: Chicken Wing
+      desc:
+      prices:
+        - $7.75
+    - name: Burger Blate
+      desc: +$0.25 Cheese
+      prices:
+        - $7.75
+    - name: Grilled Chicken
+      desc:
+      prices:
+        - $7.75
+    - name: Grilled Buffalo Chicken
+      desc:
+      prices:
+        - $7.95
+    - name: Buffalo Chicken Fingers
+      desc:
+      prices:
+        - $7.95
+    - name: Marinated Steak Tips
+      desc:
+      prices:
+        - $9.50
+    - name: Hot Wings
+      desc:
+      prices:
+        - $7.95
+    - name: Thai Chili Hot Wings
+      desc:
+      prices:
+        - $7.95
+    - name: North Shore Roast Beef
+      desc:
+      prices:
+        - $7.95
+    - name: Haddock
+      desc:
+      prices:
+        - $9.50
+
+
+- name: Gluten Free
+  desc: []
+  sizes:
+    - price
+  items:
+    - name: Pizza (Potato or Tapioca Crust)
+      desc: Small size only, add $2.00 to total cost
+      prices:
+        - +2.00
+    - name: Whoopie Pie
+      desc:
+      prices:
+        - $4.50
+
+
+- name: Bulkie Rolls
+  desc: []
+  sizes:
+    - price
+  items:
+    - name: 1/4lb Hamburger
+      desc:
+      prices:
+        - $4.15
+    - name: 1/4lb Cheeseburger
+      desc:
+      prices:
+        - $4.35
+    - name: Hamburger Special with Fries
+      desc:
+      prices:
+        - $7.10
+    - name: Cheeseburger Special with Fries
+      desc:
+      prices:
+        - $7.30
+    - name: BLT
+      desc:
+      prices:
+        - $4.35
+    - name: Roast Beef
+      desc:
+      prices:
+        - $4.35
+    - name: Ham & Cheese
+      desc:
+      prices:
+        - $4.35
+    - name: Tuna
+      desc:
+      prices:
+        - $4.35
+    - name: Turkey
+      desc:
+      prices:
+        - $4.35
+    - name: Grilled Cheese
+      desc:
+      prices:
+        - $4.35
+    - name: Texas BBQ Roast Beef
+      desc:
+      prices:
+        - $4.35
+
+
+- name: Deserts
+  desc: []
+  sizes:
+    - price
+  items:
+    - name: Baklava
+      desc:
+      prices:
+        - $2.00
+    - name: Cookies
+      desc: All Organic
+      prices:
+        - $2.00
+    - name: Brownies
+      desc:
+      prices:
+        - $2.00
+    - name: Gluten Free
+      desc:
+      prices:
+        - $4.50

@@ -1,0 +1,36 @@
+---
+layout: default
+title: Menu
+permalink: /menu/
+weight: 2
+---
+
+{% for category in site.data.menu %}
+<table class="table menu-table">
+    <thead>
+        <tr>
+            <th class="menu-header"><h4 class="menu-title">{{ category.name }}</h4></th>
+            {% for size in category.sizes %}
+            <th class="text-right"><small>{{ size }}</small></th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for desc in category.desc %}
+        <tr><td class="text-center balance-text" colspan="{{ category.sizes.size | plus:1 }}">{{ desc }}</td></tr>
+        {% endfor %}
+
+        {% for item in category.items %}
+        <tr>
+            <td>
+                {{ item.name }}
+                <small>{{ item.desc }}</small>
+            </td>
+            {% for price in item.prices %}
+            <td class="text-right">{{ price }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endfor %}
