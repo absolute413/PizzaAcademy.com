@@ -21,13 +21,13 @@ weight: 2
         {% endfor %}
 
         {% for item in category.items %}
-        <tr>
+        <tr itemscope itemtype="http://schema.org/Product">
             <td>
-                {{ item.name }}
-                <small>{{ item.desc }}</small>
+                <span itemprop="name">{{ item.name }}</span>
+                <small itemprop="description">{{ item.desc }}</small>
             </td>
             {% for price in item.prices %}
-            <td class="text-right">{{ price }}</td>
+            <td class="text-right" itemprop="offers" itemscope itemtype="http://schema.org/Offer">{{ price }}</td>
             {% endfor %}
         </tr>
         {% endfor %}
