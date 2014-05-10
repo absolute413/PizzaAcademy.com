@@ -2,6 +2,16 @@
 ---
 
 $(function () {
+    // Hours (today)
+    $('#hours').parent().find('th').each(function () {
+        var $this = $(this)
+          , label = $this.text()
+          , today = moment().format('dddd');
+        if (label === today) {
+            $this.append(' <small>(today)</small>');
+        }
+    });
+    
     // Location
     var Map         = new google.maps.Map($('#location')[0], {
             zoom            : 14

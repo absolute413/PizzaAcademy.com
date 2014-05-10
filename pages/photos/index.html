@@ -10,36 +10,16 @@ weight: 3
 </div>
 
 <script>
-(function () {
-    if (!window.$ || !window.moment) {return setTimeout(arguments.callee, 10);}
+    var $photos         = $('#photos')
+      , ajax_photos     = $.ajax({url: 'https://graph.facebook.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100'})
+      , ajax_template   = $.ajax({url: '{{ site.github.url }}/public/html/photo.html'});
 
-    var $photos = $('#photos');
-
-    $.ajax({
-        url: 'https://graph.facebook.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100'
-    }).then(function (response, statusText, jqXHR) {
+    $.when(ajax_photos, ajax_template).then(function (photos, template) {
         // Success
-        var photos = '';
-        response.data.forEach(function (photo) {
-            photos += '<div class="col-md-3">';
-                photos += '<div class="panel panel-default">';
-                    photos += '<div class="panel-body" style="padding:5px;">';
-                        photos += '<figure style="position:relative;height:0;padding-bottom:100%;background-image:url('+ photo.picture +');background-position:center;background-repeat:no-repeat;background-size:cover;">';
-                            //photos += '<figcaption style="position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(0,0,0,0.6);">';
-                                photos += '<h4 style="margin:0;padding:5px 10px;color:#fff;text-shadow:0 0 4px #000;">'+ (photo.name || '') +'</h4>';
-                            //photos += '</figcaption>';
-                        photos += '</figure>';
-                    photos += '</div>';
-                    photos += '<div class="panel-footer text-right" style="padding:0 5px;">';
-                        photos += '<small>Posted '+ moment(photo.updated_time).fromNow() +'</small>';
-                    photos += '</div>';
-                photos += '</div>';
-            photos += '</div>';
-        });
-        $photos.html(photos);
-    }, function (jqXHR, statusText, response) {
+        template = Handlebars.compile(template[0]);
+        compiled = template({photos: photos[0].data});
+        $photos.html(compiled);
+    }, function (photos, template) {
         // Failure
-
     });
-})();
 </script>

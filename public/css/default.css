@@ -35,7 +35,9 @@ small {
     padding-bottom: 56.25%;
     height: 0;
 }
-
+.embed-square {
+    padding-bottom: 75%;
+}
 .embed-responsive iframe,
 .embed-responsive-item {
     position: absolute;
