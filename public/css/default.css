@@ -16,7 +16,7 @@ body {
     background-image: url(../img/brick.png);
 }
 
-a:link,
+a,
 a:hover,
 a:focus {
     color: #921;
