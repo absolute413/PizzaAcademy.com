@@ -133,7 +133,7 @@ small {
 .content {
     padding: 30px;
 }
-.content .panel {
+.content > .panel {
     margin-bottom: 0;
 }
 

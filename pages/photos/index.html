@@ -16,7 +16,7 @@ weight: 3
     var $photos = $('#photos');
 
     $.ajax({
-        url: 'https://graph.facebook.com/606796236030457/photos?fields=name,source,photo,updated_time&limit=100'
+        url: 'https://graph.facebook.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100'
     }).then(function (response, statusText, jqXHR) {
         // Success
         var photos = '';
@@ -24,8 +24,10 @@ weight: 3
             photos += '<div class="col-md-3">';
                 photos += '<div class="panel panel-default">';
                     photos += '<div class="panel-body" style="padding:5px;">';
-                        photos += '<figure style="height:0;padding-bottom:100%;background-image:url('+ photo.source +');background-position:center;background-repeat:no-repeat;background-size:cover;">';
-                            photos += '<h4 style="margin:0;padding:5px 10px;color:#fff;text-shadow:0 0 4px #000;">'+ (photo.name || '') +'</h4>';
+                        photos += '<figure style="position:relative;height:0;padding-bottom:100%;background-image:url('+ photo.picture +');background-position:center;background-repeat:no-repeat;background-size:cover;">';
+                            //photos += '<figcaption style="position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(0,0,0,0.6);">';
+                                photos += '<h4 style="margin:0;padding:5px 10px;color:#fff;text-shadow:0 0 4px #000;">'+ (photo.name || '') +'</h4>';
+                            //photos += '</figcaption>';
                         photos += '</figure>';
                     photos += '</div>';
                     photos += '<div class="panel-footer text-right" style="padding:0 5px;">';
