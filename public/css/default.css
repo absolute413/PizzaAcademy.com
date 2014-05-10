@@ -172,7 +172,7 @@ small {
     margin-top: 30px;
     margin-bottom: -30px;
 }
-.colophon .panel {
+.colophon > .panel {
     margin-bottom: 0;
 }
 
