@@ -155,7 +155,7 @@ small {
     color: #fff;
 }
 .footer a {
-    display: block;
+    float: right;
 }
 
 /*@media (min-width: 1024px) {*/
@@ -167,6 +167,7 @@ small {
         text-align: center;
     }
     .footer a {
-        float: right;
+        float: none;
+        display: block;
     }
 }
