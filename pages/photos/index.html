@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Photos
 permalink: /photos/
 weight: 3
@@ -12,7 +12,7 @@ weight: 3
 <script>
     var $photos         = $('#photos')
       , ajax_photos     = $.ajax({url: 'https://graph.facebook.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100'})
-      , ajax_template   = $.ajax({url: '{{ site.github.url }}/public/html/photo.html'});
+      , ajax_template   = $.ajax({url: '{{ site.github.url }}/public/html/photos.html'});
 
     $.when(ajax_photos, ajax_template).then(function (photos, template) {
         // Success

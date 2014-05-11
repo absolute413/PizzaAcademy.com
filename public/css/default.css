@@ -26,6 +26,11 @@ small {
     color: #921;
 }
 
+.img-thumbnail {
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
 .balance-text {
     text-wrap: balanced;
 }
@@ -147,6 +152,39 @@ small {
         height: 100%;
         overflow: auto;
     }
+}
+
+
+.specials-board {
+    padding: 10px 15px;
+    background-color: #000;
+    background-image: url(http://subtlepatterns.com/patterns/broken_noise.png);
+    border: 10px solid #e9c78d;
+    border-image: url(http://subtlepatterns.com/patterns/purty_wood.png) 20 20 20 20 repeat;
+    box-shadow: 0 0 10px #000, inset 0 0 10px #000;
+    color: #fff;
+    text-align: center;
+}
+.specials-board * {
+    font-family: 'Comic Sans MS';
+}
+.specials-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.specials-item {
+    position: relative;
+    margin-top: 30px;
+}
+.specials-item::before {
+    content: '';
+    position: absolute;
+    top: -15px; right: 0; left: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+    background-image:    -moz-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+    background-image:     -ms-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+    background-image:      -o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
 }
 
 

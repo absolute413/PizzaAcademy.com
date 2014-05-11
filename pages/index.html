@@ -5,4 +5,21 @@ permalink: /
 weight: 1
 ---
 
-Home...
+<div class="row">
+    <div class="col-md-8">
+
+    </div>
+    <div class="col-md-4">
+        <div class="specials-board">
+            <h3 class="specials-header">Specials</h3>
+
+            {% for special in site.data.specials %}
+                <div class="specials-item">
+                    <h4>{{ special.name }}</h4>
+                    <div class="balance-text">{{ special.detail }}</div>
+                    <h5>{{ special.price }}</h5>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
