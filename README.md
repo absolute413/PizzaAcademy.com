@@ -11,4 +11,4 @@ An automatically building preview can be started by executing ```rake site:previ
 Builds are done automatically on deploy.
 
 ### Deploy
-Commit to GitHub on the gh-pages branch.
+Commit to GitHub on the [gh-pages](tree/gh-pages) branch.
