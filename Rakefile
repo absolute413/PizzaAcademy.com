@@ -1,11 +1,11 @@
 namespace :site do
-  desc “Generate the site“
+  desc "Generate with Jekyll"
   task :build do
-    `jekyll build`
+    sh 'jekyll build'
   end
 
-  desc “Start the jekyll server”
+  desc "Start server with Jekyll"
   task :preview do
-    `jekyll serve --watch`
+    sh 'jekyll serve --watch'
   end
 end
