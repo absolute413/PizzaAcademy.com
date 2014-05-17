@@ -3,3 +3,7 @@
 
 # Jekyll
 _site
+
+# Project
+vendor
+Gemfile.lock

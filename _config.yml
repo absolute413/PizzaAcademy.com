@@ -13,6 +13,13 @@ sass:
   style: :compressed
   sass_dir: _sass
 
+exlude:
+  - vendor
+  - Gemfile
+  - Rakefile
+  - Gemfile.lock
+
+
 # Metadata
 title: Pizza Academy
 tagline: Subs, Salads & Roast Beef
