@@ -1,5 +1,5 @@
 # Pizza Academy
-http://pizzaacademy.com
+
 
 #### Setup
 All dependencies are defined in the [Gemfile](Gemfile), which can be installed by running ```gem install bundler```, followed by ```bundle install```.
