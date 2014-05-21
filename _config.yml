@@ -13,7 +13,7 @@ sass:
   style: :compressed
   sass_dir: _sass
 
-exlude:
+exclude:
   - vendor
   - Gemfile
   - Rakefile
