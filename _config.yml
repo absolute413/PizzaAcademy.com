@@ -27,9 +27,14 @@ exclude:
   - Gemfile.lock
   - vendor
 
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
 
 # Metadata
-url: http://pizzaacademy.com
+url: #http://pizzaacademy.com
 baseurl: /PizzaAcademy-Preview
 
 title: Pizza Academy

@@ -18,6 +18,9 @@ namespace :site do
   desc ""
   task :build do
     system "jekyll build"
+
+    ## Jekyll Build removes all pre-existing resources
+    `touch _site/.nojekyll`
   end
 
 
