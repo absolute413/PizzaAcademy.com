@@ -1,5 +1,7 @@
 module Assets
   class Generator < Jekyll::Generator
+    priority :highest
+
     def generate(site)
       assets_dir = site.config['assets_dir'] || './_assets'
       raw_assets = Dir["#{assets_dir}/**/*"]
