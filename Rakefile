@@ -24,8 +24,8 @@ namespace :site do
   desc ""
   task :deploy do
     if ENV["TRAVIS"]
-      unless ENV["TRAVIS_PULL_REQEUST"] == "false"
-        puts "Pull request detected. Not proceeding with deploy."
+      unless ENV["TRAVIS_PULL_REQUEST"] == "false"
+        puts "Pull request #{ENV["TRAVIS_PULL_REQUEST"]}. Not proceeding with deploy."
         exit
       end
 
