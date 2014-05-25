@@ -3,16 +3,16 @@ module Pages
     priority :highest
 
     def generate(site)
-      assets_dir = site.config['pages_dir'] || './_pages'
+      assets_dir = site.config["pages_dir"] || "./_pages"
       raw_assets = Dir["#{assets_dir}/**/*"]
       raw_assets.each do |asset|
         if File.file? asset
           asset_name = asset.match(/[^\/]*$/)[0]
           asset_path = asset.match(/(.*\/)[^\/]*$/)[1]
-          source_dir = asset_path.gsub(/^\.\//, '')
-          asset_path = asset_path.gsub(/^#{assets_dir}/, '')
+          source_dir = asset_path.gsub(/^\.\//, "")
+          asset_path = asset_path.gsub(/^#{assets_dir}/, "")
 
-          content = File.read(asset, :encoding => 'ISO-8859-1')
+          content = File.read(asset, :encoding => "ISO-8859-1")
           if content =~ /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
             site.pages << Page.new(site, site.source, asset_path, asset_name, source_dir)
           else
