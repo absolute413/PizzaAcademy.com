@@ -6,24 +6,33 @@
             <div class="icon-bar"></div>
         </button>
 
-        <img class="img-responsive hidden-sm hidden-xs" alt="{{ site.title }}" src="{{ site.github.url }}/public/img/logo.png">
+        <img class="img-responsive hidden-sm hidden-xs" alt="{{ site.title }}" src="{{ site.baseurl }}/assets/img/logo.png">
 
         <h1 class="sidebar-brand visible-sm visible-xs">{{ site.title }}</h1>
     </div>
 
     <div class="collapse sidebar-collapse" id="sidebar-nav-collapse">
         <ul class="nav sidebar-nav">
-            {% for weight in (1...site.pages.size) %}
-                {% for node in site.pages %}
-                    {% if node.weight == weight %}
-                        <li class="nav-item sidebar-nav-item {% if (page.url == node.url) %}active{% endif %}">
-                            <a href="{{ site.github.url }}{{ node.url }}">{{ node.title }}</a>
+            <li class="nav-item sidebar-nav-item {% active / %}">               <a href="{{ site.baseurl }}/">                  Home            </a></li>
+            <li class="nav-item sidebar-nav-item {% active /menu/ %}">          <a href="{{ site.baseurl }}/menu/">             Menu            </a></li>
+            <li class="nav-item sidebar-nav-item">                              <a href="{{ site.baseurl }}/">                  Specials        </a></li>
+            <li class="nav-item sidebar-nav-item {% active /photos %}">         <a href="{{ site.baseurl }}/photos/">           Photos          </a></li>
+            <li class="nav-item sidebar-nav-item"><a href="#hours"    data-toggle="modal">Hours     </a></li>
+            <li class="nav-item sidebar-nav-item"><a href="#contact"  data-toggle="modal">Contact   </a></li>
+            <li class="nav-item sidebar-nav-item"><a href="#location" data-toggle="modal">Location  </a></li>
+            <li class="nav-item sidebar-nav-item {% active /special-events/ %}"><a href="{{ site.baseurl }}/special-events/">   Special Events  </a></li>
+
+            {% comment %}
+                {% for weight in (1...site.pages.size) %}
+                    {% for node in site.pages %}
+                        {% if node.weight == weight %}
+                        <li class="nav-item sidebar-nav-item {% active {{ node.url }} %}">
+                            <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
                         </li>
-                    {% endif %}
+                        {% endif %}
+                    {% endfor %}
                 {% endfor %}
-            {% endfor %}
-            <li class="nav-item sidebar-nav-item"><a href="#hours">Hours</a>
-            <li class="nav-item sidebar-nav-item"><a href="#contact">Contact</a>
+            {% endcomment %}
         </ul>
     </div>
 </div>

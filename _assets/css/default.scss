@@ -34,6 +34,10 @@ small {
             box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 
+.close {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .balance-text {
     text-wrap: balanced;
 }
@@ -155,7 +159,7 @@ small {
  * Content
  ****************************************************************/
 .content {
-    padding: 30px;
+    padding: 10px;
 }
 .content > .panel {
     margin-bottom: 0;
@@ -227,7 +231,7 @@ small {
  ****************************************************************/
 .colophon {
     margin-top: 30px;
-    margin-bottom: -30px;
+    margin-bottom: -10px;
 }
 .colophon > .panel {
     margin-bottom: 0;
@@ -243,6 +247,9 @@ small {
 }
 
 
+.hours-table {
+    margin-bottom: 0;
+}
 .hours-table > tbody > tr > th {
     width: 100%;
 }

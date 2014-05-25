@@ -1,0 +1,69 @@
+---
+layout: page
+weight: 2
+title: Menu
+---
+
+{% for category in site.data.menu %}
+<table class="table menu-table text-left">
+    <thead>
+        <tr>
+            <th class="menu-header"><h3 class="menu-title">{{ category.name }}</h3></th>
+            {% for size in category.sizes %}
+            <th class="text-right"><small>{{ size }}</small></th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Details -->
+        {% if category.details.size > 0 %}
+        <tr><td class="text-center" colspan="{{ category.sizes.size | plus:1 }}">
+            {% for detail in category.details %}
+            <div>{{ detail }}</div>
+            {% endfor %}
+        </td></tr>
+        {% endif %}
+
+        <!-- Toppings -->
+        {% if category.toppings.size > 0 %}
+        <tr><td class="text-center" colspan="{{ category.sizes.size | plus:1 }}">
+            <h5>Toppings</h5>
+            <div class="row">
+                {% for topping in category.toppings %}
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">{{ topping }}</div>
+                {% endfor %}
+            </div>
+        </td></tr>
+        {% endif %}
+
+        <!-- Items -->
+        {% for item in category.items %}
+        <tr itemscope itemtype="http://schema.org/Product">
+            <td>
+                <span itemprop="name">{{ item.name }}</span>
+                <small itemprop="description">{{ item.description }}</small>
+            </td>
+            {% for price in item.prices %}
+            <td class="text-right" itemprop="offers" itemscope itemtype="http://schema.org/Offer">{{ price }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+
+        <!-- Extras -->
+        {% if category.extras.size > 0 %}
+        <tr><td colspan="{{ category.sizes.size | plus:1 }}">Extras</td></tr>
+        {% endif %}
+        {% for extra in category.extras %}
+        <tr>
+            <td>
+                <span>{{ extra.name }}</span>
+                <small>{{ extra.desc }}</small>
+            </td>
+            {% for price in extra.prices %}
+            <td class="text-right">{{ price }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endfor %}

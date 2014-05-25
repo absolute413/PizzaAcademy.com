@@ -13,20 +13,25 @@ sass:
   style: :compressed
   sass_dir: _sass
 
+remote_data:
+  github_owner:   https://api.github.com/orgs/absolute413
+#  menu:           http://localhost/menu.json
+  photos:         https://graph.facebook.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100
+  special_photos: https://graph.facebook.com/733929783317101/photos?fields=name,source,picture,updated_time&limit=100
+
 exclude:
-  - vendor
+  - README
+  - LICENSE
   - Gemfile
   - Rakefile
   - Gemfile.lock
+  - vendor
 
 
 # Metadata
+url: http://pizzaacademy.com/
+baseurl: /PizzaAcademy-Preview
+
 title: Pizza Academy
 tagline: Subs, Salads & Roast Beef
 description: Open 7 days a week, and we deliver all day.
-
-
-# GitHub (set to `github` for testing)
-__github:
-  owner_name: GitHub Owner
-  owner_url: http://github.com/
