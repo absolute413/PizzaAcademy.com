@@ -6,8 +6,8 @@ permalink: pretty
 relative_permalinks: false
 
 gems:
-  - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 sass:
   style: :compressed
