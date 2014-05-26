@@ -161,9 +161,6 @@ small {
 .content {
     padding: 10px;
 }
-.content > .panel {
-    margin-bottom: 0;
-}
 
 /*@media (min-width: 1024px) {*/
 @media (min-width: 992px) {
@@ -229,24 +226,6 @@ small {
 /****************************************************************
  * Colophon
  ****************************************************************/
-.colophon {
-    margin-top: 30px;
-    margin-bottom: -10px;
-}
-.colophon > .panel {
-    margin-bottom: 0;
-}
-
-
-/*@media (min-width: 1024px) {*/
-@media (min-width: 992px) {
-    .colophon {
-        margin-top: 60px;
-        margin-bottom: -60px;
-    }
-}
-
-
 .hours-table {
     margin-bottom: 0;
 }

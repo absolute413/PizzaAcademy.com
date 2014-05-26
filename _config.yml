@@ -11,21 +11,19 @@ gems:
 
 sass:
   style: :compressed
-  sass_dir: _sass
+  sass_dir: _assets/css
 
 remote_data:
   github_owner:   https://api.github.com/orgs/absolute413
-#  menu:           http://localhost/menu.json
   photos:         https://graph.facebook.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100
   special_photos: https://graph.facebook.com/733929783317101/photos?fields=name,source,picture,updated_time&limit=100
 
 exclude:
   - README
   - LICENSE
+  - vendor
   - Gemfile
   - Rakefile
-  - Gemfile.lock
-  - vendor
 
 notifications:
   email:

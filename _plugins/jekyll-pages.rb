@@ -16,7 +16,8 @@ module Pages
           if content =~ /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
             site.pages << Page.new(site, site.source, asset_path, asset_name, source_dir)
           else
-            site.static_files << StaticFile.new(site, site.source, source_dir, asset_name, asset_path)
+            site.static_files << StaticFile.new(site, site.source, asset_path, asset_name, source_dir)
+#            site.static_files << StaticFile.new(site, site.source, source_dir, asset_name, asset_path)
           end
         end
       end
@@ -37,16 +38,33 @@ module Pages
   end
 
   class StaticFile < Jekyll::StaticFile
-    def initialize(site, base, dir, name, target)
+    def initialize(site, base, dir, name, source_dir)
       @site = site
       @base = base
       @dir  = dir
       @name = name
-      @target = target
+
+      @source_dir = source_dir
     end
 
-    def destination(dest)
-      File.join(*[dest, @target, @name].compact)
+    def source_path
+      File.join(*[@base, @source_dir, @name].compact)
+    end
+
+    def mtime
+      File.stat(source_path).mtime.to_i
+    end
+
+    def write(dest)
+      dest_path = destination(dest)
+
+      return false if File.exist?(dest_path) and !modified?
+      @@mtimes[path] = mtime
+
+      FileUtils.mkdir_p(File.dirname(dest_path))
+      FileUtils.cp(source_path, dest_path)
+
+      true
     end
   end
 end
