@@ -4,7 +4,7 @@
 
 
 ## Setup
-Install [Bundler](http://bundler.io/) if it is not already. (```gem install bundler```)
+Install [Bundler](http://bundler.io/) using ```gem install bundler```.
 
 Depdencies defined in the [Gemfile](Gemfile) can then be installed using ```bundle install```.
 
