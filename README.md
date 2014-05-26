@@ -33,9 +33,9 @@ Committing to the [master](tree/master) branch will trigger build using [Travis 
 If the build is successfull, it will be deployed to the [gh-pages](tree/gh-pages) branch.
 
 A manual deploy can be done by executing the following commands in order:
-* ```rake site:stage```  - fetches the currently built site into the _site folder
-* ```rake site:build```  - builds the updated site into the _site folder
-* ```rake site:deploy``` - commits all changes to the _site folder and pushes to the gh-pages branch.
+* ```rake site:stage```  - fetches the [gh-pages](tree/gh-pages) branch
+* ```rake site:build```  - builds the site
+* ```rake site:deploy``` - commits all changes and pushes to the [gh-pages](tree/gh-pages) branch.
 
 
 
