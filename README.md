@@ -20,5 +20,6 @@ A deploy can be done manually by running ```rake site:deploy```.
 
 
 --
-**If any of the above commands fail because of bundler version issues, prepend the command with ```bundle exec```.
-(e.g. ```bundle exec rake site:build```)**
+If any of the above commands fail because of bundler version issues, prepend the command with ```bundle exec```.
+
+(e.g. ```bundle exec rake site:build```)
