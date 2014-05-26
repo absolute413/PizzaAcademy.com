@@ -1,22 +1,27 @@
 # Pizza Academy [![Build Status](https://travis-ci.org/absolute413/PizzaAcademy-Preview.svg?branch=master)](https://travis-ci.org/absolute413/PizzaAcademy-Preview)
 
 
-### Setup
-All dependencies are defined in the [Gemfile](Gemfile), which can be installed by running ```gem install bundler```, followed by ```bundle install```.
-The currently built website can be pulled into the ```_site``` folder by executing ```rake site:stage```.
+## Setup
+Install [Bundler](http://bundler.io/) if it is not already. (```gem install bundler```)
+Depdencies deinfed in the [Gemfile](Gemfile) can then be installed using ```bundle install```.
 
-### Preview
-An automatically building preview can be started by executing ```rake site:preview```, and viewed at [http://localhost:4000/](http://localhost:4000/).
+## Preview
+A live building preview can be started using ```rake site:preview```.
+The preview will be avaiable at [http://localhost:4000/](http://localhost:4000/).
 
-### Build
+## Build
 Builds are done automatically on deploy.
 A manual build can be done by running ```rake site:build```.
 
-### Deploy
+## Deploy
 Commit to GitHub on the [master](tree/master) branch.
 This will trigger a build using [Travis CI](https://travis-ci.org).
 If the site is built successfully, it will be deployed to the [gh-pages](tree/gh-pages) branch.
-A deploy can be done manually by running ```rake site:deploy```.
+
+A manual deploy can be done by executing the following commands in order:
+* ```rake site:stage```  - fetches the currently built site into the _site folder
+* ```rake site:build```  - builds the updated site into the _site folder
+* ```rake site:deploy``` - commits all changes to the _site folder and pushes to the gh-pages branch.
 
 
 --
