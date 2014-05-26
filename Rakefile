@@ -16,6 +16,12 @@ namespace :site do
 
 
   desc ""
+  task :preview do
+    system "jekyll serve --watch"
+  end
+
+
+  desc ""
   task :build do
     system "jekyll build"
 
