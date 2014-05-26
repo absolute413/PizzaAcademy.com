@@ -28,11 +28,9 @@ A manual build can be done by running ```rake site:build```.
 
 
 ## Deploy
-Commit to GitHub on the [master](tree/master) branch.
+Committing to the [master](tree/master) branch will trigger build using [Travis CI](https://travis-ci.org).
 
-This will trigger a build using [Travis CI](https://travis-ci.org).
-
-If the site is built successfully, it will be deployed to the [gh-pages](tree/gh-pages) branch.
+If the build is successfull, it will be deployed to the [gh-pages](tree/gh-pages) branch.
 
 A manual deploy can be done by executing the following commands in order:
 * ```rake site:stage```  - fetches the currently built site into the _site folder
