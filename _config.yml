@@ -33,7 +33,7 @@ notifications:
 
 # Metadata
 url: http://pizzaacademy.com
-baseurl: 
+baseurl:
 
 title: Pizza Academy
 tagline: Subs, Salads & Roast Beef
