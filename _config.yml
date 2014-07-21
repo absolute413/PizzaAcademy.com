@@ -6,29 +6,18 @@ permalink: pretty
 relative_permalinks: false
 
 gems:
-  - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 sass:
   style: :compressed
   sass_dir: _assets/css
 
-remote_data:
-  github_owner:   https://api.github.com/orgs/absolute413
-  photos:         https://graph.facebook.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100
-  special_photos: https://graph.facebook.com/733929783317101/photos?fields=name,source,picture,updated_time&limit=100
-
 exclude:
-  - README
-  - LICENSE
   - vendor
   - Gemfile
   - Rakefile
-
-notifications:
-  email:
-    on_success: never
-    on_failure: change
+  - Gemfile.lock
 
 
 # Metadata
@@ -38,3 +27,14 @@ baseurl:
 title: Pizza Academy
 tagline: Subs, Salads & Roast Beef
 description: Open 7 days a week, and we deliver all day.
+
+
+# Plugins
+compress_html:
+  endings: [html,head,body, li,dt,dd, thead,tbody,tfoot,caption,tr,th,td, optgroup,option]
+  clippings: [html,head,body,meta,title,link,script, h1,h2,h3,h4,h5,div,p,hr,ol,ul,li,dl,dt,dd, table,thead,tbody,tfoot,caption,colgroup,col,tr,th,td, optgroup,option]
+
+remote_data:
+  github_owner:   https://api.github.com/orgs/absolute413
+  photos:         https://graph.facebook.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100
+  special_photos: https://graph.facebook.com/733929783317101/photos?fields=name,source,picture,updated_time&limit=100
