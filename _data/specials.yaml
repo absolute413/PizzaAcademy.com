@@ -1,6 +1,6 @@
-- name  : Monday All Day Special
-  detail: 1/2 Price Pizza (one per order) Add a 2L Coke for $2.00
-  price :
+- name  : Two Large Cheese Pizzas
+  detail: (no add ons)
+  price : $14.99
 
 - name  : Wednesday Pasta Special
   detail: Spaghetti or Ziti with one topping -N- garlic bread
