@@ -1,4 +1,4 @@
-# Pizza Academy [![Build Status](https://travis-ci.org/absolute413/PizzaAcademy-Preview.svg?branch=master)](https://travis-ci.org/absolute413/PizzaAcademy-Preview)
+# Pizza Academy [![Build Status](https://travis-ci.org/absolute413/PizzaAcademy-Preview.svg?branch=master)](https://travis-ci.org/absolute413/PizzaAcademy-Preview) [![MIT License][license-image]][license-url]
 
 
 
@@ -44,3 +44,8 @@ A manual deploy can be done by executing the following commands in order:
 If any of the above commands fail because of bundler version issues, prepend the command with ```bundle exec```.
 
 (e.g. ```bundle exec rake site:build```)
+
+
+
+[license-url]: LICENSE
+[license-image]: https://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
