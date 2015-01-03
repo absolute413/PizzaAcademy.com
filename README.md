@@ -1,4 +1,4 @@
-# Pizza Academy [![Build Status](https://travis-ci.org/absolute413/PizzaAcademy-Preview.svg?branch=master)](https://travis-ci.org/absolute413/PizzaAcademy-Preview) [![MIT License][license-image]][license-url]
+# Pizza Academy [![Build Status][travis-image]][travis-url] [![MIT License][license-image]][license-url]
 
 
 
@@ -46,6 +46,9 @@ If any of the above commands fail because of bundler version issues, prepend the
 (e.g. ```bundle exec rake site:build```)
 
 
+
+[travis-url]:https://travis-ci.org/absolute413/PizzaAcademy.com
+[travis-image]: https://img.shields.io/travis/absolute413/PizzaAcademy.com.svg?style=flat-square
 
 [license-url]: LICENSE
 [license-image]: https://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
