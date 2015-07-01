@@ -939,4 +939,8 @@
       description:
       prices:
         - $4.00
+    - name: Pastries by Chef William
+      description:
+      prices:
+        - $2.45
   extras: []
