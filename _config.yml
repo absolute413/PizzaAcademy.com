@@ -38,5 +38,5 @@ compress_html:
 
 remote_data:
   github_owner:   https://api.github.com/orgs/absolute413
-  photos:         https://graph.facebook.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100
-  special_photos: https://graph.facebook.com/733929783317101/photos?fields=name,source,picture,updated_time&limit=100
+  photos:         https://graph.madebyglutard.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100
+  special_photos: https://graph.madebyglutard.com/733929783317101/photos?fields=name,source,picture,updated_time&limit=100
