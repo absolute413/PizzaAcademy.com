@@ -6,8 +6,9 @@ permalink: pretty
 relative_permalinks: false
 
 gems:
-  - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-github-metadata
 
 sass:
   style: :compressed
@@ -32,11 +33,12 @@ description: Open 7 days a week, and we deliver all day.
 
 
 # Plugins
+repository: absolute413/PizzaAcademy.com # Populate site.github locally
+
 compress_html:
   endings: [html,head,body, li,dt,dd, thead,tbody,tfoot,caption,tr,th,td, optgroup,option]
   clippings: [html,head,body,meta,title,link,script, h1,h2,h3,h4,h5,div,p,hr,ol,ul,li,dl,dt,dd, table,thead,tbody,tfoot,caption,colgroup,col,tr,th,td, optgroup,option]
 
 remote_data:
-  github_owner:   https://api.github.com/orgs/absolute413
   photos:         https://graph.madebyglutard.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100
   special_photos: https://graph.madebyglutard.com/733929783317101/photos?fields=name,source,picture,updated_time&limit=100
