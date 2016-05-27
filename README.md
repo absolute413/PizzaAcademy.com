@@ -1,4 +1,4 @@
-# Pizza Academy [![Build Status][travis-image]][travis-url] [![MIT License][license-image]][license-url]
+# Pizza Academy [![Build Status][travis-image]][travis-url] [![ISC License][license-image]][license-url]
 
 
 
@@ -51,4 +51,4 @@ If any of the above commands fail because of bundler version issues, prepend the
 [travis-image]: https://img.shields.io/travis/absolute413/PizzaAcademy.com.svg?style=flat-square
 
 [license-url]: LICENSE
-[license-image]: https://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
+[license-image]: https://img.shields.io/badge/license-ISC-000000.svg?style=flat-square
