@@ -36,7 +36,7 @@ tagline: Subs, Salads & Roast Beef
 description: Open 7 days a week, and we deliver all day.
 
 # Plugins
-repository: absolute413/PizzaAcademy.com # Populate site.github locally
+repository: MadeByGlutard/PizzaAcademy.com # Populate site.github locally
 
 compress_html:
   clippings: all
