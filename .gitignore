@@ -1,9 +1,5 @@
-# Development
+_site/
+vendor/
+.bundle/
 .DS_Store
-.brackets.json
-
-# Project
-_site
-vendor
-.sass-cache
 Gemfile.lock

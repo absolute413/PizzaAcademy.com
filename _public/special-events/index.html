@@ -1,0 +1,28 @@
+---
+layout: page
+title: Special Events
+---
+
+<div class="photo-gallery" data-album="733929783317101"></div>
+
+{% comment %}
+<div class="row">
+  {% for photo in site.data.special_photos.data %}
+  <div class="col-md-3 col-sm-4">
+    <div class="panel panel-default">
+      <div class="panel-body" style="padding:5px;">
+        <figure class="embed-responsive embed-square" style="background-image:url({{ photo.source }});background-position:center;background-repeat:no-repeat;background-size:cover;">
+          <!--
+          <figcaption style="position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(0,0,0,0.6);">
+          -->
+            <h4 style="margin:0;padding:5px 10px;color:#fff;text-shadow:0 0 4px #000;">{{ photo.name }}</h4>
+          <!--
+          </figcaption>
+          -->
+        </figure>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endcomment %}

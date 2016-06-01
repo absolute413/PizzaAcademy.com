@@ -1,38 +1,72 @@
+{% assign url = page.url | remove: "index" %}
+
 <div class="sidebar">
-    <div class="sidebar-header">
-        <button type="button" class="sidebar-toggle" data-toggle="collapse" data-target="#sidebar-nav-collapse">
-            <div class="icon-bar"></div>
-            <div class="icon-bar"></div>
-            <div class="icon-bar"></div>
-        </button>
+  <div class="sidebar-header">
+    <button type="button" class="sidebar-toggle" data-toggle="collapse" data-target="#sidebar-nav-collapse">
+      <div class="icon-bar"></div>
+      <div class="icon-bar"></div>
+      <div class="icon-bar"></div>
+    </button>
 
-        <img class="img-responsive hidden-sm hidden-xs" alt="{{ site.title }}" src="{{ site.url }}/assets/img/logo.png">
+    <img class="img-responsive hidden-sm hidden-xs" alt="{{ site.title }}" src="{{ "/assets/img/logo.png" | prepend: site.baseurl }}">
 
-        <h1 class="sidebar-brand visible-sm visible-xs">{{ site.title }}</h1>
-    </div>
+    <h1 class="sidebar-brand visible-sm visible-xs">{{ site.title }}</h1>
+  </div>
 
-    <div class="collapse sidebar-collapse" id="sidebar-nav-collapse">
-        <ul class="nav sidebar-nav">
-            <li class="nav-item sidebar-nav-item {% active / %}">               <a href="{{ site.url }}/">                  Home            </a></li>
-            <li class="nav-item sidebar-nav-item {% active /menu/ %}">          <a href="{{ site.url }}/menu/">             Menu            </a></li>
-            <li class="nav-item sidebar-nav-item">                              <a href="{{ site.url }}/">                  Specials        </a></li>
-            <li class="nav-item sidebar-nav-item {% active /photos %}">         <a href="{{ site.url }}/photos/">           Photos          </a></li>
-            <li class="nav-item sidebar-nav-item"><a href="#hours"    data-toggle="modal">Hours     </a></li>
-            <li class="nav-item sidebar-nav-item"><a href="#contact"  data-toggle="modal">Contact   </a></li>
-            <li class="nav-item sidebar-nav-item"><a href="#location" data-toggle="modal">Location  </a></li>
-            <li class="nav-item sidebar-nav-item {% active /special-events/ %}"><a href="{{ site.url }}/special-events/">   Special Events  </a></li>
+  <div class="collapse sidebar-collapse" id="sidebar-nav-collapse">
+    <ul class="nav sidebar-nav">
+      <li class="nav-item sidebar-nav-item {% if url == "/" %}active{% endif %}">
+        <a href="{{ "/" | prepend: site.baseurl }}">
+          Home
+        </a>
+      </li>
+      <li class="nav-item sidebar-nav-item {% if url == "/menu/" %}active{% endif %}">
+        <a href="{{ "/menu/" | prepend: site.baseurl }}">
+          Menu
+        </a>
+      </li>
+      <li class="nav-item sidebar-nav-item">
+        <a href="{{ "/" | prepend: site.baseurl }}">
+          Specials
+        </a>
+      </li>
+      <li class="nav-item sidebar-nav-item {% if url == "/photos/" %}active{% endif %}">
+        <a href="{{ "/photos/" | prepend: site.baseurl }}">
+          Photos
+        </a>
+      </li>
+      <li class="nav-item sidebar-nav-item">
+        <a href="#hours" data-toggle="modal">
+          Hours
+        </a>
+      </li>
+      <li class="nav-item sidebar-nav-item">
+        <a href="#contact" data-toggle="modal">
+          Contact
+        </a>
+      </li>
+      <li class="nav-item sidebar-nav-item">
+        <a href="#location" data-toggle="modal">
+          Location
+        </a>
+      </li>
+      <li class="nav-item sidebar-nav-item {% if url == "/special-events/" %}active{% endif %}">
+        <a href="{{ "/special-events/" | prepend: site.baseurl }}">
+          Special Events
+        </a>
+      </li>
 
-            {% comment %}
-                {% for weight in (1...site.pages.size) %}
-                    {% for node in site.pages %}
-                        {% if node.weight == weight %}
-                        <li class="nav-item sidebar-nav-item {% active {{ node.url }} %}">
-                            <a href="{{ site.url }}{{ node.url }}">{{ node.title }}</a>
-                        </li>
-                        {% endif %}
-                    {% endfor %}
-                {% endfor %}
-            {% endcomment %}
-        </ul>
-    </div>
+      {% comment %}
+          {% for weight in (1...site.pages.size) %}
+              {% for node in site.pages %}
+                  {% if node.weight == weight %}
+                  <li class="nav-item sidebar-nav-item {% if page.url === node.url %}active{% endif %}">
+                      <a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+                  </li>
+                  {% endif %}
+              {% endfor %}
+          {% endfor %}
+      {% endcomment %}
+    </ul>
+  </div>
 </div>

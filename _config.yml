@@ -1,4 +1,6 @@
 # Configuration
+safe: true
+
 kramdown:
   input: GFM
 
@@ -7,38 +9,50 @@ relative_permalinks: false
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+
+whitelist:
+  - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-github-metadata
 
 sass:
   style: :compressed
-  sass_dir: _assets/css
 
 exclude:
   - README
-  - LICENSE
-  - vendor
   - Gemfile
-  - Rakefile
-  - Gemfile.lock
-
 
 # Metadata
-url: http://pizzaacademy.com
-baseurl:
+baseurl: ""
+excerpt_separator: ""
 
+logo: /assets/img/open-graph.jpg
 title: Pizza Academy
 tagline: Subs, Salads & Roast Beef
 description: Open 7 days a week, and we deliver all day.
-
 
 # Plugins
 repository: absolute413/PizzaAcademy.com # Populate site.github locally
 
 compress_html:
-  endings: [html,head,body, li,dt,dd, thead,tbody,tfoot,caption,tr,th,td, optgroup,option]
-  clippings: [html,head,body,meta,title,link,script, h1,h2,h3,h4,h5,div,p,hr,ol,ul,li,dl,dt,dd, table,thead,tbody,tfoot,caption,colgroup,col,tr,th,td, optgroup,option]
+  clippings: all
+  comments: all
+  endings: all
+  ignore: { envs: [ local ] }
 
-remote_data:
-  photos:         https://graph.madebyglutard.com/606796236030457/photos?fields=name,source,picture,updated_time&limit=100
-  special_photos: https://graph.madebyglutard.com/733929783317101/photos?fields=name,source,picture,updated_time&limit=100
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/open-graph.jpg
+
+collections:
+  assets:
+    output: true
+  public:
+    output: true
+    permalink: /:path
