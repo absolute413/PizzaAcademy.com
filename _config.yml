@@ -25,6 +25,7 @@ sass:
 exclude:
   - README
   - Gemfile
+  - vendor
 
 # Metadata
 baseurl: ""
