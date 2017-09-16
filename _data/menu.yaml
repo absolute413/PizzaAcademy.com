@@ -182,7 +182,7 @@
 
 
 - name: Pizza
-  details: [NEW: Daiya Cheese - non dairy]
+  details: ["NEW: Daiya Cheese - non dairy"]
   toppings: [Anchovies, Hamburger, Pepperoncini, Ham, Olives, Artichoke Hearts, Mushrooms, Spinach, Steak, Peppers, Roasted Peppers, Meatball, Sausage (Hot), Salami, Onion, Pepperoni, Tomato, Pineapple, Broccoli, Garlic, Jalapeno, Bacon, Feta Cheese, Chicken]
   sizes:
     - small
