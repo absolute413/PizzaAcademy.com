@@ -228,6 +228,11 @@
     - small
     - large
   items:
+    - name: Caribbean Jerk Chicken
+      description:
+      prices:
+        - $10.30
+        - $15.69
     - name: Chicken Cordon Blue
       description: Grilled Chicken, Ham, Broccoli & Alfredo Sauce
       prices:
