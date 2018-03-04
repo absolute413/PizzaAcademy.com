@@ -1,0 +1,91 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: static/images/uploads
+public_folder: /images/uploads
+
+collections:
+- name: settings
+  label: Settings
+  editor:
+    preview: false
+  files:
+  # - name: general
+  #   label: Site Settings
+  #   file: content/settings.yaml
+  #   fields:
+  #   - label: Global title
+  #     name: site_title
+  #     widget: string
+
+  - name: hours
+    label: Hours
+    file: content/hours.yml
+    widget: list
+    fields:
+    - name: days
+      label: Days
+      widget: string
+    - name: time
+      label: Time
+      widget: list
+
+  - name: menu
+    label: Menu
+    file: content/menu.yml
+    widget: list
+    fields:
+    - name: name
+      label: Name
+      widget: string
+    - name: details
+      label: Details
+      widget: list
+    - name: toppings
+      label: Toppings
+      widget: list
+    - name: sizes
+      label: Sizes
+      widget: list
+    - name: items
+      label: Items
+      widget: list
+      fields:
+      - name: name
+        label: Name
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: prices
+        label: Prices
+        widget: list
+    - name: extras
+      label: Extras
+      widget: list
+
+  - name: specials
+    label: Specials
+    file: content/specials.yml
+    widget: list
+    fields:
+    - name: name
+      label: Name
+      widget: string
+    - name: detail
+      label: Detail
+      widget: string
+    - name: price
+      label: Price
+      widget: string
+
+  - name: flavors
+    label: Flavors
+    file: content/flavors.yml
+    widget: list
+    fields:
+    - name: name
+      label: Name
+      widget: string

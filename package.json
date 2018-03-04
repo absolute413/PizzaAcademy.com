@@ -1,0 +1,56 @@
+{
+  "name": "pizzaacademy",
+  "description": "PizzaAcademy.com",
+  "version": "1.0.0",
+  "engines": {
+    "node": "^8.9.0"
+  },
+  "scripts": {
+    "test": "eslint . --fix --ignore-path .gitignore --ignore-pattern '!.eslintrc.js'",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadeByGlutard/PizzaAcademy.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "date-fns": "^1.29.0",
+    "emotion": "^9.0.2",
+    "emotion-server": "^9.0.2",
+    "eslint": "^4.18.2",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "gatsby": "^1.9.223",
+    "gatsby-plugin-catch-links": "^1.0.19",
+    "gatsby-plugin-emotion": "^1.1.15",
+    "gatsby-plugin-google-analytics": "^1.0.20",
+    "gatsby-plugin-lodash": "^1.0.10",
+    "gatsby-plugin-netlify": "^1.0.19",
+    "gatsby-plugin-netlify-cms": "^1.0.11",
+    "gatsby-plugin-react-helmet": "^2.0.6",
+    "gatsby-plugin-react-next": "^1.0.10",
+    "gatsby-plugin-resolve-src": "^1.0.0",
+    "gatsby-plugin-sharp": "^1.6.38",
+    "gatsby-plugin-sitemap": "^1.2.14",
+    "gatsby-source-filesystem": "^1.5.26",
+    "gatsby-transformer-sharp": "^1.6.22",
+    "gatsby-transformer-yaml": "^1.5.16",
+    "lodash": "^4.17.5",
+    "object-assign": "^4.1.1",
+    "prettier": "^1.11.1",
+    "react-helmet": "^5.2.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 120,
+    "singleQuote": true,
+    "bracketSpacing": true
+  },
+  "license": "ISC"
+}

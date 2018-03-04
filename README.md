@@ -2,12 +2,12 @@
 
 ## Setup
 ```bash
-bundle install --path vendor/bundle
+npm install
 ```
 
 ## Preview
 ```bash
-bundle exec jekyll serve
+npm run develop
 ```
 
 [license-url]: LICENSE

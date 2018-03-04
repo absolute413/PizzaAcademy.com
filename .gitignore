@@ -1,5 +1,6 @@
-_site/
-vendor/
-.bundle/
-.DS_Store
-Gemfile.lock
+# Use a global .gitignore to exclude system files
+# git config --global core.excludesfile ~/.gitignore
+
+node_modules/
+.cache/
+public/
