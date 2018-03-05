@@ -55,7 +55,7 @@ export default () => (
               </td>
               {item.prices.map((price, idx) => (
                 <td key={idx} className="text-right" itemProp="offers" itemScope itemType="http://schema.org/Offer">
-                  {price}
+                  {price === 'null' ? null : price}
                 </td>
               ))}
             </tr>

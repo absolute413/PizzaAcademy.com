@@ -11,12 +11,12 @@ menu:
     - name: Super
       description:
       prices:
-        - null
+        - 'null'
         - $5.75
     - name: Regular
       description:
       prices:
-        - null
+        - 'null'
         - $4.75
     - name: Calzone
       description:
@@ -67,27 +67,27 @@ menu:
     - name: Spinach Pie
       description:
       prices:
-        - null
+        - 'null'
         - $2.75
     - name: Mac N' Cheese Bits
       description: 10pcs
       prices:
-        - null
+        - 'null'
         - $3.99
     - name: Bosco Sticks
       description: + $.50 for Marinara Sauce
       prices:
-        - null
+        - 'null'
         - $1.25
     - name: Jalapeno Poppers
       description: 7pcs, Stuffed with Cream Cheese
       prices:
-        - null
+        - 'null'
         - $4.99
     - name: Onion Rings
       description:
       prices:
-        - null
+        - 'null'
         - $4.99
     - name: French Fries
       description:
@@ -112,27 +112,27 @@ menu:
     - name: Garlic Bread
       description:
       prices:
-        - null
+        - 'null'
         - $2.25
     - name: Garlic Bread Topped with a Blend of Cheese
       description:
       prices:
-        - null
+        - 'null'
         - $3.99
     - name: Garlic Bread Special with Tomato & Bacon
       description:
       prices:
-        - null
+        - 'null'
         - $4.99
     - name: Mozzarella Cheese Sticks
       description: 8pcs with Marinara Sauce
       prices:
-        - null
+        - 'null'
         - $5.99
     - name: Buffalo Mozzarella Sticks
       description: 7pcs with Marinara Sauce
       prices:
-        - null
+        - 'null'
         - $6.50
     - name: Chicken Wings
       description:
@@ -162,22 +162,22 @@ menu:
     - name: Fried 3 Cheese Ravioli
       description: 9pcs with Marinara Sauce
       prices:
-        - null
+        - 'null'
         - $5.99
     - name: Egg Rolls
       description: 3pcs
       prices:
-        - null
+        - 'null'
         - $3.99
     - name: Steak & Cheese Egg Roles
       description: 4pcs
       prices:
-        - null
+        - 'null'
         - $4.99
     - name: Arancini
       description: 3pcs
       prices:
-        - null
+        - 'null'
         - $4.99
   extras: []
 
@@ -192,8 +192,8 @@ menu:
     - name: Multi-Grain Crust
       description: Large size only / No Extra Charge
       prices:
-        - null
-        - null
+        - 'null'
+        - 'null'
     - name: Cheese
       description: Red or White Sauce
       prices:
@@ -566,7 +566,7 @@ menu:
     - name: Kiki's Veggie
       description: Our Syrian, with lettuce, tomato, onions, peppers, feta cheese, mushrooms & Greek olives with house dressing
       prices:
-        - null
+        - 'null'
         - $7.75
   extras: []
 
@@ -668,7 +668,7 @@ menu:
     - name: Grilled Greek
       description:
       prices:
-        - null
+        - 'null'
         - $10.59
     - name: Garden Salad
       description:
@@ -703,12 +703,12 @@ menu:
     - name: Buffalo Chicken Finger Salad
       description:
       prices:
-        - null
+        - 'null'
         - $8.49
     - name: Buffalo Chicken Finger Caesar Salad
       description:
       prices:
-        - null
+        - 'null'
         - $8.49
     - name: Caesar Salad
       description:
@@ -723,22 +723,22 @@ menu:
     - name: Steak Tip Salad
       description:
       prices:
-        - null
+        - 'null'
         - $10.09
     - name: Steak Tip Caesar Salad
       description:
       prices:
-        - null
+        - 'null'
         - $10.09
     - name: BBQ Chicken Finger Salad
       description:
       prices:
-        - null
+        - 'null'
         - $8.49
     - name: BBQ Grilled Chicken Salad
       description:
       prices:
-        - null
+        - 'null'
         - $8.49
   extras:
     - name: Dressing
