@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import format from 'date-fns/format'
 
-import hours from '../../../content/hours.yaml'
+import { hours } from '../../../content/hours.yaml'
 
 export default () => {
   const today = format(new Date(), 'dddd')

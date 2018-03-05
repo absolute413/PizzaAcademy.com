@@ -1,6 +1,6 @@
 import React from 'react'
 
-import menu from '../../content/menu.yaml'
+import { menu } from '../../content/menu.yaml'
 
 import Page from 'components/page'
 

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 
-import flavors from '../../../content/flavors.yaml'
+import { flavors } from '../../../content/flavors.yaml'
 
 export default () => (
   <Fragment>
