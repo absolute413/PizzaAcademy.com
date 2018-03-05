@@ -50,8 +50,7 @@ export default () => (
           {category.items.map((item, idx) => (
             <tr key={idx} itemScope itemType="http://schema.org/Product">
               <td>
-                <span itemProp="name">{item.name}</span>{' '}
-                <small itemProp="description">{item.description}</small>
+                <span itemProp="name">{item.name}</span> <small itemProp="description">{item.description}</small>
               </td>
               {item.prices.map((price, idx) => (
                 <td key={idx} className="text-right" itemProp="offers" itemScope itemType="http://schema.org/Offer">
