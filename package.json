@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "eslint . --fix --ignore-path .gitignore --ignore-pattern '!.eslintrc.js'",
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },
