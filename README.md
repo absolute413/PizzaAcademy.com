@@ -7,7 +7,7 @@ npm install
 
 ## Preview
 ```bash
-npm run develop
+npm start
 ```
 
 [license-url]: LICENSE
