@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   branch: master
 
-publish_mode: editorial_workflow
 media_folder: static/images
 public_folder: /images
 
@@ -63,6 +62,13 @@ collections:
       - name: extras
         label: Extras
         widget: list
+        fields:
+        - name: name
+          label: Name
+          widget: string
+        - name: prices
+          label: Prices
+          widget: list
 
   - name: specials
     label: Specials
