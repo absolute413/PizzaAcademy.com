@@ -1,14 +1,8 @@
 flavors:
-- name: Vanilla Bean
-
-- name: Wicked Dark Chocolate
-
-- name: Strawberries & Cream
-
-- name: Black Raspberry
-
-- name: Greek
-
-- name: Espresso
-
-- name: Tuscan Apple Pie
+  - name: Vanilla Bean
+  - name: Wicked Chocolate
+  - name: Strawberries & Cream
+  - name: Black Raspberry
+  - name: Greek
+  - name: Espresso
+  - name: Tuscan Apple Pie
