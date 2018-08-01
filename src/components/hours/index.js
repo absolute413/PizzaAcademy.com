@@ -9,6 +9,9 @@ export default () => {
   return (
     <Fragment>
       <h4 className="text-center">Hours</h4>
+      <small className="text-center" style={{ display: 'block' }}>
+        Closed August 5th - August 26th
+      </small>
 
       <table className="table hours-table">
         <tbody>
