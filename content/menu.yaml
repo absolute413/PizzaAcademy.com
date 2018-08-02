@@ -163,16 +163,20 @@ menu:
       - 'NEW: Daiya Cheese - non dairy'
     extras: []
     items:
-      - description: Large size only / No Extra Charge
-        name: Multi-Grain Crust
-        prices:
-          - 'null'
-          - 'null'
       - description: Red or White Sauce
         name: Cheese
         prices:
           - $7.65
           - $10.75
+      - description: Large size only / No Extra Charge
+        name: Multi-Grain Crust
+        prices:
+          - 'null'
+          - 'null'
+      - description: 'Potato crust, small size only, add $2.00 to total cost'
+        name: Gluten Free (non-extreme)
+        prices:
+          - +$2.00
       - name: 1 Topping
         prices:
           - $8.65
@@ -774,17 +778,6 @@ menu:
         prices:
           - $9.25
     name: Dinners
-    sizes:
-      - price
-    toppings: []
-  - details: []
-    extras: []
-    items:
-      - description: 'small size only, add $2.00 to total cost'
-        name: Pizza (Potato or Tapioca Crust)
-        prices:
-          - +$2.00
-    name: Gluten Free (non-extreme)
     sizes:
       - price
     toppings: []
