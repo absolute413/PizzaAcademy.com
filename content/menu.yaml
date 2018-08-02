@@ -369,7 +369,12 @@ menu:
       - small
       - large
     toppings: []
-  - details: []
+  - details:
+      - >-
+        Try any sub with teryiaki or hot sauce. All subs served on Italian sub
+        rolls
+      - Syrian (8 grams of carbs)
+      - or tortilla wrap (6 grams of carbs). Wraps come in large size only.
     extras:
       - name: Feta Cheese
         prices:
@@ -483,7 +488,9 @@ menu:
   - details:
       - >-
         Try any sub with teryiaki or hot sauce. All subs served on Italian sub
-        rolls, Syrian (8 grams of carbs), or tortilla wrap (6 grams of carbs)
+        rolls
+      - Syrian (8 grams of carbs)
+      - or tortilla wrap (6 grams of carbs). Wraps come in large size only.
     extras: []
     items:
       - name: Chicken Salad
@@ -543,8 +550,10 @@ menu:
     toppings: []
   - details:
       - >-
-        Try any sub with teriyaki sauce or hot sauce. All subs served on Italian
-        sub rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs)
+        Try any sub with teryiaki or hot sauce. All subs served on Italian sub
+        rolls
+      - Syrian (8 grams of carbs)
+      - or tortilla wrap (6 grams of carbs). Wraps come in large size only.
     extras:
       - name: Cheese
         prices:
