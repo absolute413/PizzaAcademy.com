@@ -1,8 +1,5 @@
 menu:
-  - details:
-      - Served with Mayonnaise
-      - BBQ Sauce & American cheese on a grilled onion roll. Cooked in-house
-      - thinly sliced & served warm.
+  - details: 'Served with Mayonnaise, BBQ Sauce & American cheese on a grilled onion roll. Cooked in-house, thinly sliced & served warm.'
     extras: []
     items:
       - name: Super
@@ -26,8 +23,7 @@ menu:
       - small
       - large
     toppings: []
-  - details:
-      - 'In house cooked, smoked in cherry & applewood · 8 hours'
+  - details: 'In house cooked, smoked in cherry & applewood · 8 hours'
     extras: []
     items:
       - name: Sub
@@ -47,7 +43,7 @@ menu:
       - small
       - large
     toppings: []
-  - details: []
+  - details: ''
     extras: []
     items:
       - name: Spinach Pie
@@ -158,8 +154,7 @@ menu:
       - small
       - large
     toppings: []
-  - details:
-      - 'NEW: Daiya Cheese - non dairy'
+  - details: 'NEW: Daiya Cheese - non dairy'
     extras: []
     items:
       - description: Red or White Sauce
@@ -221,7 +216,7 @@ menu:
       - Bacon
       - Feta Cheese
       - Chicken
-  - details: []
+  - details: ''
     extras: []
     items:
       - description: 'Grilled Chicken, Ham, Broccoli & Alfredo Sauce'
@@ -339,7 +334,7 @@ menu:
       - small
       - large
     toppings: []
-  - details: []
+  - details: ''
     extras: []
     items:
       - name: Cheese
@@ -368,12 +363,7 @@ menu:
       - small
       - large
     toppings: []
-  - details:
-      - >-
-        Try any sub with teryiaki or hot sauce. All subs served on Italian sub
-        rolls
-      - Syrian (8 grams of carbs)
-      - or tortilla wrap (6 grams of carbs). Wraps come in large size only.
+  - details: 'Try any sub with teryiaki or hot sauce. All subs served on Italian sub rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs). Wraps come in large size only.'
     extras:
       - name: Feta Cheese
         prices:
@@ -484,12 +474,7 @@ menu:
       - small
       - large
     toppings: []
-  - details:
-      - >-
-        Try any sub with teryiaki or hot sauce. All subs served on Italian sub
-        rolls
-      - Syrian (8 grams of carbs)
-      - or tortilla wrap (6 grams of carbs). Wraps come in large size only.
+  - details: 'Try any sub with teryiaki or hot sauce. All subs served on Italian sub rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs). Wraps come in large size only.'
     extras: []
     items:
       - name: Chicken Salad
@@ -547,12 +532,7 @@ menu:
       - small
       - large
     toppings: []
-  - details:
-      - >-
-        "Try any sub with teryiaki or hot sauce. All subs served on Italian sub
-        rolls
-      - Syrian (8 grams of carbs)
-      - or tortilla wrap (6 grams of carbs). Wraps come in large size only."
+  - details: 'Try any sub with teryiaki or hot sauce. All subs served on Italian sub rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs). Wraps come in large size only.'
     extras:
       - name: Cheese
         prices:
@@ -605,7 +585,7 @@ menu:
       - small
       - large
     toppings: []
-  - details: []
+  - details: ''
     extras: []
     items:
       - description: 'Chicken, rice & lemon'
@@ -622,8 +602,7 @@ menu:
     sizes:
       - price
     toppings: []
-  - details:
-      - served with Syrian bread & choice of dressing
+  - details: 'Served with Syrian bread & choice of dressing'
     extras:
       - name: Dressing
         prices:
@@ -713,10 +692,7 @@ menu:
       - House
       - Balsamic Vinaigrette
       - Raspberry Vinaigrette
-  - details:
-      - >-
-        All spaghetti dinners are served with garlic bread & choice of melted
-        mozzarella cheese or grated parmesan cheese
+  - details: 'All spaghetti dinners are served with garlic bread & choice of melted mozzarella cheese or grated parmesan cheese'
     extras: []
     items:
       - name: Sauce & Cheese
@@ -746,10 +722,7 @@ menu:
       - Buffalo Chicken (spicy)
       - Meatballs
       - Grilled Chicken
-  - details:
-      - >-
-        Served with French Fries, Onion Rings & Small Side Salad -or- Rice &
-        Salad
+  - details: 'Served with French Fries, Onion Rings & Small Side Salad -or- Rice & Salad'
     extras: []
     items:
       - name: Chicken Finger
@@ -789,7 +762,7 @@ menu:
     sizes:
       - price
     toppings: []
-  - details: []
+  - details: ''
     extras: []
     items:
       - name: 1/4lb Hamburger
@@ -829,8 +802,7 @@ menu:
     sizes:
       - price
     toppings: []
-  - details:
-      - Made in House by Pastry Chef William
+  - details: 'Made in House by Pastry Chef William'
     extras: []
     items:
       - name: Carrot Cake
