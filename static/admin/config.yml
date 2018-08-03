@@ -39,7 +39,7 @@ collections:
         widget: string
       - name: details
         label: Details
-        widget: list
+        widget: string
       - name: toppings
         label: Toppings
         widget: list
