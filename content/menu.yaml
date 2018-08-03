@@ -1,9 +1,8 @@
 menu:
   - details:
-      - >-
-        Served with Mayonnaise, BBQ Sauce & American cheese on a grilled onion
-        roll.
-      - 'Cooked in-house, thinly sliced & served warm.'
+      - Served with Mayonnaise
+      - BBQ Sauce & American cheese on a grilled onion roll. Cooked in-house
+      - thinly sliced & served warm.
     extras: []
     items:
       - name: Super
