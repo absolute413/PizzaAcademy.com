@@ -25,7 +25,7 @@ export default () => (
           {category.details.length ? (
             <tr>
               <td className="text-center" colSpan={category.sizes.length + 1}>
-                {category.details.map((detail, idx) => <div key={idx}>{detail}</div>)}
+                {category.details}
               </td>
             </tr>
           ) : null}
