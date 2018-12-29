@@ -17,7 +17,7 @@ export default ({ location, children }) => {
         <meta name="description" content={siteMetadata.description} />
         <meta name="og:type" content="website" />
         <meta name="og:site_name" content={siteMetadata.title} />
-        <meta name="og:description" content={siteMetadata.description} />,
+        <meta name="og:description" content={siteMetadata.description} />
       </Helmet>
 
       <Sidebar location={location} />
