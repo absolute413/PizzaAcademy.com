@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 
-import { specials } from '../../../content/specials.yaml'
+import { specials } from '../../content/specials.yaml'
 
 export default () => (
   <Fragment>

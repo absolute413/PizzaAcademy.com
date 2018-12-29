@@ -34,10 +34,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-resolve-src`,
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-react-next`,
-    `gatsby-plugin-emotion`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-sharp`,

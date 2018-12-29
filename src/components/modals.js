@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 
-import Specials from 'components/specials'
-import Flavors from 'components/flavors'
-import Hours from 'components/hours'
-import Contact from 'components/contact'
-import Location from 'components/location'
+import Specials from './specials'
+import Flavors from './flavors'
+import Hours from './hours'
+import Contact from './contact'
+import Location from './location'
 
 export default () => (
   <Fragment>

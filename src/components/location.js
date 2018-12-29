@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 
-import { siteMetadata } from '../../../gatsby-config'
+import { siteMetadata } from '../../gatsby-config'
 
 class Location extends Component {
   componentDidMount() {

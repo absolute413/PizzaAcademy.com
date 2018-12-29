@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { siteMetadata } from '../../../gatsby-config'
+import { siteMetadata } from '../../gatsby-config'
 
 export default ({ location }) => (
   <div className="sidebar">
@@ -13,7 +13,7 @@ export default ({ location }) => (
 
       <img
         className="img-responsive hidden-sm hidden-xs"
-        src={require('assets/img/logo.png')}
+        src={require('../assets/img/logo.png')}
         alt={siteMetadata.title}
       />
 

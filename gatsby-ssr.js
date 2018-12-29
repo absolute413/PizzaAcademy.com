@@ -3,20 +3,13 @@
  *
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
-import React from 'react'
-
-import { siteMetadata } from './gatsby-config'
+const React = require('react')
 
 exports.onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
   setHeadComponents([
-    <meta key={0} name="description" content={siteMetadata.description} />,
-
-    <meta key={1} property="og:site_name" content={siteMetadata.title} />,
-    <meta key={2} property="og:description" content={siteMetadata.description} />,
-
-    <link key={3} rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ovo|Arvo:700" />,
-    <link key={4} rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css" />,
-    <link key={5} rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css" />
+    <link key={0} rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ovo|Arvo:700" />,
+    <link key={1} rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css" />,
+    <link key={2} rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css" />
   ])
   setPostBodyComponents([
     <script key={0} src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js" />,
