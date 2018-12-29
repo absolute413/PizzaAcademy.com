@@ -707,6 +707,9 @@ menu:
       - name: Alfredo
         prices:
           - $8.45
+      - name: American Chop Suey
+        prices:
+          - $8.45
       - name: 'Chicken, Broccoli Alfredo'
         prices:
           - $10.25
