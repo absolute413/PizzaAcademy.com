@@ -10,6 +10,10 @@ import Flavors from 'components/flavors'
 export default () => (
   <div className="row">
     <div className="col-md-6 col-md-push-3">
+      <div className="alert alert-info text-center">
+        <strong style={{ fontSize: '1.25em' }}>Closed January 1st - Happy New Year!</strong>
+      </div>
+
       <div className="panel panel-default text-center">
         <div className="panel-heading">
           <h1 style={{ fontFamily: 'Arvo', textTransform: 'uppercase' }}>
