@@ -10,6 +10,10 @@ import Flavors from '../components/flavors'
 
 export default ({ location }) => (
   <Layout location={location}>
+    <div className="alert alert-warning text-center">
+      <strong style={{ fontSize: '1.25em' }}>It's almost time for a Pizza Academy family vacation.</strong>
+      <div>We will be closed July 28th through August 13th.<br />Re-opening August 14th - See you soon!</div>
+    </div>
     <div className="row">
       <div className="col-md-6 col-md-push-3">
         <div className="alert alert-info text-center">
