@@ -13,61 +13,78 @@ collections:
   files:
   - name: hours
     label: Hours
+    required: false
     file: content/hours.yaml
     fields:
     - name: hours
       label: Hours
+      required: false
       widget: list
       fields:
       - name: days
         label: Days
+        required: false
         widget: string
       - name: time
         label: Time
+        required: false
         widget: list
 
   - name: menu
     label: Menu
+    required: false
     file: content/menu.yaml
     fields:
     - name: menu
       label: Menu
+      required: false
       widget: list
       fields:
       - name: name
         label: Name
+        required: false
         widget: string
       - name: details
         label: Details
+        required: false
         widget: string
       - name: toppings
         label: Toppings
+        required: false
         widget: list
       - name: sizes
         label: Sizes
+        required: false
         widget: list
       - name: items
         label: Items
+        required: false
         widget: list
         fields:
         - name: name
           label: Name
+          required: false
           widget: string
         - name: description
           label: Description
+          required: false
           widget: string
         - name: prices
           label: Prices
+          required: false
           widget: list
       - name: extras
         label: Extras
+        required: false
         widget: list
         fields:
         - name: name
           label: Name
+          required: false
           widget: string
         - name: prices
           label: Prices
+          required: false
           widget: list
 
   - name: specials
@@ -76,16 +93,20 @@ collections:
     fields:
     - name: specials
       label: Specials
+      required: false
       widget: list
       fields:
       - name: name
         label: Name
+        required: false
         widget: string
       - name: detail
         label: Detail
+        required: false
         widget: string
       - name: price
         label: Price
+        required: false
         widget: string
 
   - name: flavors
@@ -94,8 +115,10 @@ collections:
     fields:
     - name: flavors
       label: Flavors
+      required: false
       widget: list
       fields:
       - name: name
         label: Name
+        required: false
         widget: string
