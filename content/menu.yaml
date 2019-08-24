@@ -28,7 +28,7 @@ menu:
     items:
       - name: Sub
         prices:
-          - $6.15
+          - $6.25
           - $7.60
       - name: Pizza
         prices:
@@ -46,10 +46,6 @@ menu:
   - details: ''
     extras: []
     items:
-      - name: Spinach Pie
-        prices:
-          - 'null'
-          - $2.75
       - description: 10pcs
         name: Mac N' Cheese Bits
         prices:
@@ -64,11 +60,11 @@ menu:
         name: Jalapeno Poppers
         prices:
           - 'null'
-          - $5.25
+          - $5.99
       - name: Onion Rings
         prices:
           - 'null'
-          - $4.99
+          - $5.25
       - name: French Fries
         prices:
           - $3.99
@@ -107,7 +103,7 @@ menu:
         name: Buffalo Mozzarella Sticks
         prices:
           - 'null'
-          - $6.75
+          - $7.75
       - name: Chicken Wings
         prices:
           - $6.99
@@ -133,14 +129,9 @@ menu:
         name: Fried 3 Cheese Ravioli
         prices:
           - 'null'
-          - $5.99
+          - $6.25
       - description: 4pcs
         name: Egg Rolls
-        prices:
-          - 'null'
-          - $3.99
-      - description: 4pcs
-        name: Steak & Cheese Egg Roles
         prices:
           - 'null'
           - $5.99
@@ -148,45 +139,50 @@ menu:
         name: Arancini
         prices:
           - 'null'
-          - $5.99
+          - $6.25
+      - description: 4pcs
+        name: Steak & Cheese Egg Roles
+        prices:
+          - 'null'
+          - $6.79
     name: Appetizers
     sizes:
       - small
       - large
     toppings: []
-  - details: 'NEW: Daiya Cheese - non dairy'
+  - details: 'NEW: Violife Cheese - non dairy'
     extras: []
     items:
       - description: Red or White Sauce
         name: Cheese
         prices:
-          - $7.65
-          - $10.75
+          - $8.65
+          - $11.75
       - description: Large size only / No Extra Charge
         name: Multi-Grain Crust
         prices:
           - 'null'
           - 'null'
-      - description: 'Potato crust, small size only, add $2.00 to total cost'
+      - description: 'Potato or Tapioca crust, small size only, add $2.00 to total cost'
         name: Gluten Free (non-extreme)
         prices:
           - +$2.00
       - name: 1 Topping
         prices:
-          - $8.65
-          - $12.25
+          - $9.65
+          - $13.25
       - name: 2 Toppings
         prices:
-          - $9.65
-          - $13.75
+          - $10.65
+          - $14.75
       - name: 3 Toppings
         prices:
-          - $10.99
-          - $15.69
+          - $11.99
+          - $16.69
       - name: 4 Toppings
         prices:
-          - $11.99
-          - $17.55
+          - $12.99
+          - $18.55
     name: Pizza
     sizes:
       - small
@@ -222,113 +218,113 @@ menu:
       - description: 'Grilled Chicken, Ham, Broccoli & Alfredo Sauce'
         name: Chicken Cordon Blue
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - name: Sloppy Joe
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - name: Mac & Cheese
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - description: 'Smoked with Apple & Cherry Wood, in house · 12 hours'
         name: Smoked BBQ Pork
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - description: >-
           Marinated Chicken, Romaine Lettuce & Parmesan Cheese with Caesar
           Dressing
         name: Chicken Caesar
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - description: 'Parmesan, Cheddar, Mozzarella & Provolone'
         name: 4 Cheese Pizza
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - description: 'Bacon, Lettuce & Tomato'
         name: BLT
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - description: Ham & Pineapple
         name: Hawaiian
         prices:
-          - $9.65
-          - $13.75
+          - $10.65
+          - $14.75
       - description: Grilled Chicken and Spicy Jerk Sauce
         name: Caribbean
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - name: BBQ Chicken
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - name: Buffalo Chicken
         prices:
-          - $10.65
-          - $15.99
-      - name: Grilled Chicken
-        prices:
-          - $9.65
-          - $13.75
+          - $11.65
+          - $16.99
       - description: Add Alfredo Sauce · $0.60/sm · $1.20/lg
         name: Chicken & Broccoli
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - description: 'Salsa, Refreid Beans, Hamburger & Jalapeno'
         name: Mexican
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - description: 'Buffalo Fingers, Jalapenos & Hot Sauce'
         name: Inferno
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - name: Phil Steak
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - description: 'Feta, Tomatoes & Greek Olives'
         name: Greek Pizza
         prices:
-          - $10.65
-          - $15.99
+          - $11.65
+          - $16.99
       - name: Combination Pizza
         prices:
-          - $12.49
-          - $18.49
+          - $13.49
+          - $19.49
       - name: Meat Combo
         prices:
-          - $12.49
-          - $18.49
+          - $13.49
+          - $19.49
       - name: Vegetarian Combo
         prices:
-          - $12.49
-          - $18.49
+          - $13.49
+          - $19.49
       - name: Greek Salad Pizza
         prices:
-          - $10.49
-          - $15.99
+          - $11.49
+          - $16.99
       - name: Alfredo
         prices:
-          - $7.95
-          - $11.49
+          - $8.95
+          - $12.49
       - name: Beach Style
         prices:
-          - $7.65
-          - $10.49
+          - $8.65
+          - $11.49
       - description: 'Grilled chicken, ranch dressing & bacon'
         name: Grilled Chicken Ranch
         prices:
-          - $10.75
-          - $15.99
+          - $11.75
+          - $16.99
+      - name: Ginger & Orange Chicken
+        prices:
+          - $13.49
+          - $16.99
     name: Specialty Pizza
     sizes:
       - small
@@ -343,21 +339,21 @@ menu:
           - $8.35
       - name: 1 Topping
         prices:
-          - $7.19
-          - $10.59
+          - $7.69
+          - $10.99
       - name: 2 Toppings
         prices:
-          - $8.19
-          - $11.59
+          - $8.69
+          - $11.99
       - name: 3 Toppings
         prices:
-          - $9.19
-          - $12.59
+          - $9.69
+          - $12.99
       - description: Any items on the menu may be used
         name: Combo
         prices:
-          - $12.19
-          - $15.39
+          - $12.95
+          - $16.39
     name: Calzones
     sizes:
       - small
@@ -382,93 +378,89 @@ menu:
       - description: 'Marinated turnip, pickled pickle, Tahini sauce & fried chick peas'
         name: Falafel
         prices:
-          - $6.25
-          - $7.95
+          - 'null'
+          - $8.25
       - description: Smoked in house 12 hours
         name: Pulled BBQ Pork
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Grilled Chicken Caesar
         prices:
-          - $6.25
-          - $7.95
+          - 'null'
+          - $8.25
       - name: Chicken Cutlet
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Grilled Chicken
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Buffalo Chicken Finger
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Chicken Finger
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Meatball
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: BLT
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Ham & Egg
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Pepper & Egg
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Gyro
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Veal Cutlet
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Steak Tip
         prices:
-          - $7.95
-          - $9.75
+          - $8.25
+          - $10.25
       - name: Haddock Tail
         prices:
-          - $7.75
-          - $9.25
+          - $8.25
+          - $10.25
       - description: 'Tossed with roast beef, ham, bacon, cheese & fresh vegetables'
         name: Paul's Super
         prices:
-          - $6.50
+          - $6.75
           - $8.25
       - name: Cheeseburger
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - description: >-
           Our spicy sausage served with onions, peppers, sauce & melted
           provolone cheese
         name: Sausage Bomb
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Grilled Veggie
         prices:
-          - $6.25
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Eggplant Cutlet
         prices:
-          - $6.25
-          - $7.95
-      - name: Falafel on Syrian Bread
-        prices:
-          - 'null'
-          - $7.95
+          - $6.75
+          - $8.25
     name: Subs & Wraps (Hot)
     sizes:
       - small
@@ -479,54 +471,54 @@ menu:
     items:
       - name: Chicken Salad
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - description: 'Mortadella, Genoa, Salami & Provolone Cheese'
         name: Italian
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - description: 'American cheese, ham & Mortadella'
         name: American
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - description: 'Yellowtail, all white'
         name: Light Tuna
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - description: 98% Fat Free
         name: Smoked Turkey
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - description: Toasted with Cheese
         name: 'Beef, Bacon & Turkey'
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - description: In house roasted
         name: Roast Beef
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Imported Ham & Cheese
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - description: 'American & Provolone cheese with lettuce, tomatoes, pickles & onions'
         name: Vegetarian
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - description: >-
           Our Syrian, with lettuce, tomato, onions, peppers, feta cheese,
           mushrooms & Greek olives with house dressing
         name: Kiki's Veggie
         prices:
           - 'null'
-          - $7.95
+          - $8.25
     name: Subs & Wraps (Cold)
     sizes:
       - small
@@ -541,45 +533,45 @@ menu:
     items:
       - name: Steak Cheese
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Steak Plain
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Steak Pepperoni
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Steak Roasted Pepper
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Steak Onion
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - description: 'Peppers, Onions, Cheese, Tomatoes & Salami'
         name: Steak Bomb
         prices:
           - $6.95
-          - $8.25
+          - $8.75
       - name: Steak Mushroom
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Steak & Egg
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Steak Teriyaki
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
       - name: Steak Garlic
         prices:
-          - $6.50
-          - $7.95
+          - $6.75
+          - $8.25
     name: Subs & Wraps (Steak)
     sizes:
       - small
@@ -610,8 +602,8 @@ menu:
           - +$0.55
       - name: Feta Cheese
         prices:
-          - +$0.85
-          - +$1.35
+          - +$1.25
+          - +$2.00
     items:
       - name: Grilled Greek
         prices:
@@ -664,11 +656,11 @@ menu:
       - name: Steak Tip Salad
         prices:
           - 'null'
-          - $10.09
+          - $11.09
       - name: Steak Tip Caesar Salad
         prices:
           - 'null'
-          - $10.09
+          - $11.09
       - name: BBQ Chicken Finger Salad
         prices:
           - 'null'
@@ -677,21 +669,21 @@ menu:
         prices:
           - 'null'
           - $8.49
+      - name: BBQ Pork
+        prices:
+          - $4.95
+          - $8.49
     name: Salads
     sizes:
       - small
       - large
     toppings:
-      - Italian
       - Blue Cheese
-      - Lite Italian
-      - Creamy Greek
+      - Greek
       - Ranch
       - Caesar
-      - Parmesan Peppercorn
       - House
       - Balsamic Vinaigrette
-      - Raspberry Vinaigrette
   - details: 'All spaghetti dinners are served with garlic bread & choice of melted mozzarella cheese or grated parmesan cheese'
     extras: []
     items:
@@ -730,37 +722,37 @@ menu:
     items:
       - name: Chicken Finger
         prices:
-          - $9.25
+          - $9.75
       - name: Chicken Wing Ding
         prices:
-          - $9.25
-      - description: +$0.25 Cheese
+          - $9.75
+      - description: +$0.65 Cheese
         name: Burger Blate
         prices:
-          - $9.25
+          - $9.75
       - name: Grilled Chicken
         prices:
-          - $9.25
+          - $9.75
       - name: Steak Tips
         prices:
-          - $12.25
+          - $13.25
       - name: Buffalo Chicken
         prices:
-          - $9.25
+          - $9.75
       - description: Beer Battered
         name: Haddock Tail
         prices:
           - $11.75
       - name: Hot Wings
         prices:
-          - $9.25
+          - $9.75
       - name: Thai Chili Hot Wings
         prices:
-          - $9.25
+          - $9.75
       - description: with garlic bread or side salad
         name: Arancini (4)
         prices:
-          - $9.25
+          - $9.75
     name: Dinners
     sizes:
       - price
@@ -782,25 +774,25 @@ menu:
           - $6.25
       - name: BLT
         prices:
-          - $3.95
+          - $4.50
       - name: Roast Beef
         prices:
-          - $3.95
+          - $4.50
       - name: Ham & Cheese
         prices:
-          - $3.95
+          - $4.50
       - name: Tuna
         prices:
-          - $3.95
+          - $4.50
       - name: Turkey
         prices:
-          - $3.95
+          - $4.50
       - name: Grilled Chicken
         prices:
-          - $3.95
+          - $4.50
       - name: Texas BBQ Roast Beef
         prices:
-          - $3.95
+          - $4.50
     name: Bulkie Rolls
     sizes:
       - price
@@ -817,10 +809,6 @@ menu:
       - name: Cheesecake
         prices:
           - $3.25
-      - description: All Organic
-        name: Cookies
-        prices:
-          - $3.25
       - name: Brownies
         prices:
           - $3.25
@@ -833,10 +821,6 @@ menu:
       - name: Gluten Free Whoopie Pies
         prices:
           - $3.25
-      - description: Eleven Flavors
-        name: Homemade Ice Cream
-        prices:
-          - $5.00
     name: Deserts
     sizes:
       - price
