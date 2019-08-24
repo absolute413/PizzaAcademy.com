@@ -13,7 +13,8 @@ export default ({ location }) => (
     <div className="row">
       <div className="col-md-6 col-md-push-3">
         <div className="alert alert-info text-center">
-          <strong style={{ fontSize: '1.25em' }}>Closed January 1st - Happy New Year!</strong>
+          <strong style={{ fontSize: '1.25em' }}>Reminder: You must call to Pizza Academy to place your order.</strong>
+          <div>We do not partner with any online services, and any that claim to be working with us are a scam!<br />Thank you.</div>
         </div>
 
         <div className="panel panel-default text-center">
