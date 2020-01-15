@@ -1,5 +1,7 @@
 menu:
-  - details: 'Served with Mayonnaise, BBQ Sauce & American cheese on a grilled onion roll. Cooked in-house, thinly sliced & served warm.'
+  - details: >-
+      Served with Mayonnaise, BBQ Sauce & American cheese on a grilled onion
+      roll. Cooked in-house, thinly sliced & served warm.
     extras: []
     items:
       - name: Super
@@ -51,11 +53,6 @@ menu:
         prices:
           - 'null'
           - $3.99
-      - description: + $.50 for Marinara Sauce
-        name: Bosco Sticks
-        prices:
-          - 'null'
-          - $1.25
       - description: '7pcs, Stuffed with Cream Cheese'
         name: Jalapeno Poppers
         prices:
@@ -359,7 +356,10 @@ menu:
       - small
       - large
     toppings: []
-  - details: 'Try any sub with teryiaki or hot sauce. All subs served on Italian sub rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs). Wraps come in large size only.'
+  - details: >-
+      Try any sub with teryiaki or hot sauce. All subs served on Italian sub
+      rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs).
+      Wraps come in large size only.
     extras:
       - name: Feta Cheese
         prices:
@@ -466,7 +466,10 @@ menu:
       - small
       - large
     toppings: []
-  - details: 'Try any sub with teryiaki or hot sauce. All subs served on Italian sub rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs). Wraps come in large size only.'
+  - details: >-
+      Try any sub with teryiaki or hot sauce. All subs served on Italian sub
+      rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs).
+      Wraps come in large size only.
     extras: []
     items:
       - name: Chicken Salad
@@ -524,7 +527,10 @@ menu:
       - small
       - large
     toppings: []
-  - details: 'Try any sub with teryiaki or hot sauce. All subs served on Italian sub rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs). Wraps come in large size only.'
+  - details: >-
+      Try any sub with teryiaki or hot sauce. All subs served on Italian sub
+      rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs).
+      Wraps come in large size only.
     extras:
       - name: Cheese
         prices:
@@ -594,7 +600,7 @@ menu:
     sizes:
       - price
     toppings: []
-  - details: 'Served with Syrian bread & choice of dressing'
+  - details: Served with Syrian bread & choice of dressing
     extras:
       - name: Dressing
         prices:
@@ -684,7 +690,9 @@ menu:
       - Caesar
       - House
       - Balsamic Vinaigrette
-  - details: 'All spaghetti dinners are served with garlic bread & choice of melted mozzarella cheese or grated parmesan cheese'
+  - details: >-
+      All spaghetti dinners are served with garlic bread & choice of melted
+      mozzarella cheese or grated parmesan cheese
     extras: []
     items:
       - name: Sauce & Cheese
@@ -797,7 +805,7 @@ menu:
     sizes:
       - price
     toppings: []
-  - details: 'Made in House by Pastry Chef William'
+  - details: Made in House by Pastry Chef William
     extras: []
     items:
       - name: Carrot Cake
