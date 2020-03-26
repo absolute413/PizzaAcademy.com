@@ -12,7 +12,7 @@ export default ({ location }) => (
   <Layout location={location}>
     <div className="alert alert-warning text-center">
       <strong style={{ fontSize: '1.25em' }}>We are open for Take Out and Delivery</strong>
-      <div>Tuesday-Saturday, 11am-8pm || Sunday, 3pm-9pm || Monday, closed</div>
+      <div>Tuesday-Saturday, 11am-8pm || Sunday, 3pm-8pm || Monday, closed</div>
     </div>
 
     <div className="row">
