@@ -10,13 +10,13 @@ import Flavors from '../components/flavors'
 
 export default ({ location }) => (
   <Layout location={location}>
+    <div className="alert alert-warning text-center">
+      <strong style={{ fontSize: '1.25em' }}>We are open for Take Out and Delivery</strong>
+      <div>Tuesday-Saturday, 11am-8pm || Sunday, 3pm-9pm || Monday, closed</div>
+    </div>
+
     <div className="row">
       <div className="col-md-6 col-md-push-3">
-        <div className="alert alert-info text-center">
-          <strong style={{ fontSize: '1.25em' }}>Reminder: You must call to Pizza Academy to place your order.</strong>
-          <div>We do not partner with any online services, and any that claim to be working with us are a scam!<br />Thank you.</div>
-        </div>
-
         <div className="panel panel-default text-center">
           <div className="panel-heading">
             <h1 style={{ fontFamily: 'Arvo', textTransform: 'uppercase' }}>
@@ -41,6 +41,11 @@ export default ({ location }) => (
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="alert alert-info text-center">
+          <strong style={{ fontSize: '1.25em' }}>Reminder: You must call to Pizza Academy to place your order.</strong>
+          <div>We do not partner with any online services, claims otherwise are a scam! Thank you.</div>
         </div>
       </div>
 

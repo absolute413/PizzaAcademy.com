@@ -4,7 +4,7 @@ import format from 'date-fns/format'
 import { hours } from '../../content/hours.yaml'
 
 export default () => {
-  const today = format(new Date(), 'dddd')
+  const today = format(new Date(), 'EEEE')
 
   return (
     <Fragment>
@@ -18,9 +18,15 @@ export default () => {
                 {hour.days}
                 {hour.days === today && <small style={{ marginLeft: '0.5em' }}>(today)</small>}
               </th>
-              <td className="text-right">{hour.time[0]}</td>
-              <td className="text-center">&mdash;</td>
-              <td className="text-left">{hour.time[1]}</td>
+              {hour.time.length < 2 ? (
+                <td colSpan="3">{hour.time[0] || 'Closed'}</td>
+              ) : (
+                <>
+                  <td className="text-right">{hour.time[0]}</td>
+                  <td className="text-center">&mdash;</td>
+                  <td className="text-left">{hour.time[1]}</td>
+                </>
+              )}
             </tr>
           ))}
         </tbody>

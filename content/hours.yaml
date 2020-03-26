@@ -1,8 +1,6 @@
 hours:
   - days: Monday
-    time:
-      - 11am
-      - 8pm
+    time: []
   - days: Tuesday
     time:
       - 11am
@@ -10,19 +8,19 @@ hours:
   - days: Wednesday
     time:
       - 11am
-      - 9pm
+      - 8pm
   - days: Thursday
     time:
       - 11am
-      - 9pm
+      - 8pm
   - days: Friday
     time:
       - 11am
-      - 10pm
+      - 8pm
   - days: Saturday
     time:
       - 11am
-      - 10pm
+      - 8pm
   - days: Sunday
     time:
       - 3pm
