@@ -3,7 +3,7 @@ module.exports = {
     title: `Pizza Academy`,
     siteUrl: `https://pizzaacademy.com`,
     tagline: `Subs, Salads & Roast Beef`,
-    description: `Open 7 days a week, and we deliver all day.`
+    description: `Open 7 days a week, and we deliver all day.`,
   },
   plugins: [
     // Sources
@@ -11,15 +11,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src`,
-        name: `src`
-      }
+        name: `src`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content`,
-        name: `content`
-      }
+        name: `content`,
+      },
     },
 
     // Transformers
@@ -30,8 +30,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-39995938-4`
-      }
+        trackingId: `UA-39995938-4`,
+      },
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
@@ -41,6 +41,6 @@ module.exports = {
 
     `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-netlify-cache`
-  ]
+    `gatsby-plugin-netlify-cache`,
+  ],
 }

@@ -11,13 +11,13 @@ class Location extends Component {
       zoom: 14,
       center: new google.maps.LatLng(42.982, -70.961426),
       scrollwheel: false,
-      disableDefaultUI: true
+      disableDefaultUI: true,
     })
 
     this.Marker = new google.maps.Marker({
       map: this.Map,
       position: new google.maps.LatLng(42.978998, -70.961426),
-      title: siteMetadata.title
+      title: siteMetadata.title,
     })
 
     this.InfoWindow = new google.maps.InfoWindow({
@@ -29,7 +29,7 @@ class Location extends Component {
         ${siteMetadata.description}
         <br />
         159 Front St, Exeter NH, 03833
-      `
+      `,
     })
   }
 
@@ -39,7 +39,7 @@ class Location extends Component {
         <h4 className="text-center">Location</h4>
 
         <div className="embed-responsive">
-          <div className="embed-responsive-item location-map" ref={node => (this.node = node)} />
+          <div className="embed-responsive-item location-map" ref={(node) => (this.node = node)} />
         </div>
       </Fragment>
     )

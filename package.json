@@ -12,33 +12,31 @@
     "type": "git",
     "url": "https://github.com/MadeByGlutard/PizzaAcademy.com"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "^10.1.0",
-    "date-fns": "^2.11.0",
+    "date-fns": "^2.12.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
-    "gatsby": "^2.20.7",
+    "gatsby": "^2.20.15",
     "gatsby-plugin-catch-links": "^2.2.1",
     "gatsby-plugin-google-analytics": "^2.2.2",
     "gatsby-plugin-lodash": "^3.2.1",
     "gatsby-plugin-netlify": "^2.2.1",
     "gatsby-plugin-netlify-cache": "^1.2.0",
-    "gatsby-plugin-netlify-cms": "^4.2.1",
+    "gatsby-plugin-netlify-cms": "^4.2.2",
     "gatsby-plugin-react-helmet": "^3.2.1",
-    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-sharp": "^2.5.4",
     "gatsby-plugin-sitemap": "^2.3.1",
     "gatsby-source-filesystem": "^2.2.2",
-    "gatsby-transformer-sharp": "^2.4.2",
+    "gatsby-transformer-sharp": "^2.4.4",
     "gatsby-transformer-yaml": "^2.3.1",
     "intersection-observer": "^0.7.0",
     "lodash": "^4.17.15",
-    "netlify-cms": "^2.10.35",
-    "netlify-cms-app": "^2.11.32",
+    "netlify-cms-app": "^2.12.6",
     "object-fit-images": "^3.2.4",
-    "prettier": "^2.0.2",
+    "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1"
@@ -46,8 +44,7 @@
   "prettier": {
     "semi": false,
     "printWidth": 120,
-    "singleQuote": true,
-    "bracketSpacing": true
+    "singleQuote": true
   },
   "license": "ISC"
 }

@@ -20,7 +20,7 @@ export default () => (
                 marginTop: '8px',
                 marginRight: '13px',
                 color: '#fff',
-                opacity: 0.8
+                opacity: 0.8,
               }}
             >
               &times;
@@ -43,7 +43,7 @@ export default () => (
                 marginTop: '8px',
                 marginRight: '13px',
                 color: '#fff',
-                opacity: 0.8
+                opacity: 0.8,
               }}
             >
               &times;
@@ -64,7 +64,7 @@ export default () => (
               data-dismiss="modal"
               style={{
                 marginTop: '-8px',
-                marginRight: '-13px'
+                marginRight: '-13px',
               }}
             >
               &times;
@@ -85,7 +85,7 @@ export default () => (
               data-dismiss="modal"
               style={{
                 marginTop: '-8px',
-                marginRight: '-13px'
+                marginRight: '-13px',
               }}
             >
               &times;
@@ -106,7 +106,7 @@ export default () => (
               data-dismiss="modal"
               style={{
                 marginTop: '-8px',
-                marginRight: '-13px'
+                marginRight: '-13px',
               }}
             >
               &times;

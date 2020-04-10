@@ -10,8 +10,6 @@ env:
   browser: true
 
 globals:
-  # Gatsby exposes this as a global
-  graphql: true
   # Global Libraries
   google: true
   $: true
@@ -45,3 +43,7 @@ rules:
   no-console: 'off'
   react/display-name: 'off'
   react/no-unescaped-entities: 'off'
+
+settings:
+  react:
+    version: detect
