@@ -7,6 +7,10 @@ import Page from '../components/page'
 
 export default ({ location }) => (
   <Layout location={location}>
+    <div className="alert alert-info text-center">
+      <strong style={{ fontSize: '1.25em' }}>Subs Available in Large Size Only</strong>
+    </div>
+
     <Page title="Menu">
       {menu.map((category, idx) => (
         <table key={idx} className="table menu-table text-left">
