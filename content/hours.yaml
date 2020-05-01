@@ -23,5 +23,4 @@ hours:
       - 8pm
   - days: Sunday
     time:
-      - 3pm
-      - 8pm
+      - ""
