@@ -1,11 +1,11 @@
 specials:
   - detail: (no add ons)
     name: Two Large Cheese Pizzas
-    price: $16.99
+    price: $17.75
   - detail: Spaghetti or Ziti with one topping -N- garlic bread
     name: Wednesday Pasta Special
     price: $5.99
-  - detail: 'Lg Cheese, Lg One Topping Pizza, Lg French Fries, 2 Liter Coke Product'
-    price: $25.99
+  - detail: Lg Cheese, Lg One Topping Pizza, Lg French Fries, 2 Liter Coke Product
+    price: $27.99
   - detail: Two Small Cheese Pizzas and a 2 Liter Coke Product
-    price: $13.00
+    price: $15.00
