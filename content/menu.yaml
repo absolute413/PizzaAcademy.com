@@ -1,16 +1,15 @@
 menu:
-  - details: >-
-      Served with Mayonnaise, BBQ Sauce & American cheese on a grilled onion
+  - details: Served with Mayonnaise, BBQ Sauce & American cheese on a grilled onion
       roll. Cooked in-house, thinly sliced & served warm.
     extras: []
     items:
       - name: Super
         prices:
-          - 'null'
+          - "null"
           - $5.95
       - name: Regular
         prices:
-          - 'null'
+          - "null"
           - $4.95
       - name: Calzone
         prices:
@@ -25,7 +24,7 @@ menu:
       - small
       - large
     toppings: []
-  - details: 'In house cooked, smoked in cherry & applewood · 8 hours'
+  - details: In house cooked, smoked in cherry & applewood · 8 hours
     extras: []
     items:
       - name: Sub
@@ -45,22 +44,22 @@ menu:
       - small
       - large
     toppings: []
-  - details: ''
+  - details: ""
     extras: []
     items:
       - description: 10pcs
         name: Mac N' Cheese Bits
         prices:
-          - 'null'
+          - "null"
           - $3.99
-      - description: '7pcs, Stuffed with Cream Cheese'
+      - description: 7pcs, Stuffed with Cream Cheese
         name: Jalapeno Poppers
         prices:
-          - 'null'
+          - "null"
           - $5.99
       - name: Onion Rings
         prices:
-          - 'null'
+          - "null"
           - $5.25
       - name: French Fries
         prices:
@@ -81,25 +80,25 @@ menu:
           - $6.99
       - name: Garlic Bread
         prices:
-          - 'null'
+          - "null"
           - $2.25
       - name: Garlic Bread Topped with a Blend of Cheese
         prices:
-          - 'null'
+          - "null"
           - $3.99
       - name: Garlic Bread Special with Tomato & Bacon
         prices:
-          - 'null'
+          - "null"
           - $4.99
       - description: 8pcs with Marinara Sauce
         name: Mozzarella Cheese Sticks
         prices:
-          - 'null'
+          - "null"
           - $6.25
       - description: 7pcs with Marinara Sauce
         name: Buffalo Mozzarella Sticks
         prices:
-          - 'null'
+          - "null"
           - $7.75
       - name: Chicken Wings
         prices:
@@ -125,29 +124,29 @@ menu:
       - description: 9pcs with Marinara Sauce
         name: Fried 3 Cheese Ravioli
         prices:
-          - 'null'
+          - "null"
           - $6.25
       - description: 4pcs
         name: Egg Rolls
         prices:
-          - 'null'
+          - "null"
           - $5.99
       - description: 3pcs
         name: Arancini
         prices:
-          - 'null'
+          - "null"
           - $6.25
       - description: 4pcs
         name: Steak & Cheese Egg Roles
         prices:
-          - 'null'
+          - "null"
           - $6.79
     name: Appetizers
     sizes:
       - small
       - large
     toppings: []
-  - details: 'NEW: Violife Cheese - non dairy'
+  - details: "NEW: Violife Cheese - non dairy"
     extras: []
     items:
       - description: Red or White Sauce
@@ -158,9 +157,9 @@ menu:
       - description: Large size only / No Extra Charge
         name: Multi-Grain Crust
         prices:
-          - 'null'
-          - 'null'
-      - description: 'Potato or Tapioca crust, small size only, add $2.00 to total cost'
+          - "null"
+          - "null"
+      - description: Potato or Tapioca crust, small size only, add $2.00 to total cost
         name: Gluten Free (non-extreme)
         prices:
           - +$2.00
@@ -209,10 +208,10 @@ menu:
       - Bacon
       - Feta Cheese
       - Chicken
-  - details: ''
+  - details: ""
     extras: []
     items:
-      - description: 'Grilled Chicken, Ham, Broccoli & Alfredo Sauce'
+      - description: Grilled Chicken, Ham, Broccoli & Alfredo Sauce
         name: Chicken Cordon Blue
         prices:
           - $11.65
@@ -225,24 +224,23 @@ menu:
         prices:
           - $11.65
           - $16.99
-      - description: 'Smoked with Apple & Cherry Wood, in house · 12 hours'
+      - description: Smoked with Apple & Cherry Wood, in house · 12 hours
         name: Smoked BBQ Pork
         prices:
           - $11.65
           - $16.99
-      - description: >-
-          Marinated Chicken, Romaine Lettuce & Parmesan Cheese with Caesar
+      - description: Marinated Chicken, Romaine Lettuce & Parmesan Cheese with Caesar
           Dressing
         name: Chicken Caesar
         prices:
           - $11.65
           - $16.99
-      - description: 'Parmesan, Cheddar, Mozzarella & Provolone'
+      - description: Parmesan, Cheddar, Mozzarella & Provolone
         name: 4 Cheese Pizza
         prices:
           - $11.65
           - $16.99
-      - description: 'Bacon, Lettuce & Tomato'
+      - description: Bacon, Lettuce & Tomato
         name: BLT
         prices:
           - $11.65
@@ -270,12 +268,12 @@ menu:
         prices:
           - $11.65
           - $16.99
-      - description: 'Salsa, Refreid Beans, Hamburger & Jalapeno'
+      - description: Salsa, Refreid Beans, Hamburger & Jalapeno
         name: Mexican
         prices:
           - $11.65
           - $16.99
-      - description: 'Buffalo Fingers, Jalapenos & Hot Sauce'
+      - description: Buffalo Fingers, Jalapenos & Hot Sauce
         name: Inferno
         prices:
           - $11.65
@@ -284,7 +282,7 @@ menu:
         prices:
           - $11.65
           - $16.99
-      - description: 'Feta, Tomatoes & Greek Olives'
+      - description: Feta, Tomatoes & Greek Olives
         name: Greek Pizza
         prices:
           - $11.65
@@ -313,7 +311,7 @@ menu:
         prices:
           - $8.65
           - $11.49
-      - description: 'Grilled chicken, ranch dressing & bacon'
+      - description: Grilled chicken, ranch dressing & bacon
         name: Grilled Chicken Ranch
         prices:
           - $11.75
@@ -327,7 +325,7 @@ menu:
       - small
       - large
     toppings: []
-  - details: ''
+  - details: ""
     extras: []
     items:
       - name: Cheese
@@ -356,8 +354,7 @@ menu:
       - small
       - large
     toppings: []
-  - details: >-
-      Try any sub with teryiaki or hot sauce. All subs served on Italian sub
+  - details: Try any sub with teryiaki or hot sauce. All subs served on Italian sub
       rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs).
       Wraps come in large size only.
     extras:
@@ -370,15 +367,15 @@ menu:
           - +$1.00
           - +$1.50
     items:
-      - description: 'Chicken Tenders, Mozzarella Sticks & French Fries - regular or spicy'
+      - description: Chicken Tenders, Mozzarella Sticks & French Fries - regular or spicy
         name: CMF
         prices:
           - $7.50
           - $8.50
-      - description: 'Marinated turnip, pickled pickle, Tahini sauce & fried chick peas'
+      - description: Marinated turnip, pickled pickle, Tahini sauce & fried chick peas
         name: Falafel
         prices:
-          - 'null'
+          - "null"
           - $8.25
       - description: Smoked in house 12 hours
         name: Pulled BBQ Pork
@@ -387,7 +384,7 @@ menu:
           - $8.25
       - name: Grilled Chicken Caesar
         prices:
-          - 'null'
+          - "null"
           - $8.25
       - name: Chicken Cutlet
         prices:
@@ -437,7 +434,7 @@ menu:
         prices:
           - $8.25
           - $10.25
-      - description: 'Tossed with roast beef, ham, bacon, cheese & fresh vegetables'
+      - description: Tossed with roast beef, ham, bacon, cheese & fresh vegetables
         name: Paul's Super
         prices:
           - $6.75
@@ -446,8 +443,7 @@ menu:
         prices:
           - $6.75
           - $8.25
-      - description: >-
-          Our spicy sausage served with onions, peppers, sauce & melted
+      - description: Our spicy sausage served with onions, peppers, sauce & melted
           provolone cheese
         name: Sausage Bomb
         prices:
@@ -466,8 +462,7 @@ menu:
       - small
       - large
     toppings: []
-  - details: >-
-      Try any sub with teryiaki or hot sauce. All subs served on Italian sub
+  - details: Try any sub with teryiaki or hot sauce. All subs served on Italian sub
       rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs).
       Wraps come in large size only.
     extras: []
@@ -476,17 +471,17 @@ menu:
         prices:
           - $6.75
           - $8.25
-      - description: 'Mortadella, Genoa, Salami & Provolone Cheese'
+      - description: Mortadella, Genoa, Salami & Provolone Cheese
         name: Italian
         prices:
           - $6.75
           - $8.25
-      - description: 'American cheese, ham & Mortadella'
+      - description: American cheese, ham & Mortadella
         name: American
         prices:
           - $6.75
           - $8.25
-      - description: 'Yellowtail, all white'
+      - description: Yellowtail, all white
         name: Light Tuna
         prices:
           - $6.75
@@ -497,7 +492,7 @@ menu:
           - $6.75
           - $8.25
       - description: Toasted with Cheese
-        name: 'Beef, Bacon & Turkey'
+        name: Beef, Bacon & Turkey
         prices:
           - $6.75
           - $8.25
@@ -510,25 +505,23 @@ menu:
         prices:
           - $6.75
           - $8.25
-      - description: 'American & Provolone cheese with lettuce, tomatoes, pickles & onions'
+      - description: American & Provolone cheese with lettuce, tomatoes, pickles & onions
         name: Vegetarian
         prices:
           - $6.75
           - $8.25
-      - description: >-
-          Our Syrian, with lettuce, tomato, onions, peppers, feta cheese,
+      - description: Our Syrian, with lettuce, tomato, onions, peppers, feta cheese,
           mushrooms & Greek olives with house dressing
         name: Kiki's Veggie
         prices:
-          - 'null'
+          - "null"
           - $8.25
     name: Subs & Wraps (Cold)
     sizes:
       - small
       - large
     toppings: []
-  - details: >-
-      Try any sub with teryiaki or hot sauce. All subs served on Italian sub
+  - details: Try any sub with teryiaki or hot sauce. All subs served on Italian sub
       rolls, Syrian (8 grams of carbs) or tortilla wrap (6 grams of carbs).
       Wraps come in large size only.
     extras:
@@ -557,7 +550,7 @@ menu:
         prices:
           - $6.75
           - $8.25
-      - description: 'Peppers, Onions, Cheese, Tomatoes & Salami'
+      - description: Peppers, Onions, Cheese, Tomatoes & Salami
         name: Steak Bomb
         prices:
           - $6.95
@@ -583,10 +576,10 @@ menu:
       - small
       - large
     toppings: []
-  - details: ''
+  - details: ""
     extras: []
     items:
-      - description: 'Chicken, rice & lemon'
+      - description: Chicken, rice & lemon
         name: Avgolemono
         prices:
           - $3.95
@@ -613,7 +606,7 @@ menu:
     items:
       - name: Grilled Greek
         prices:
-          - 'null'
+          - "null"
           - $10.59
       - name: Garden Salad
         prices:
@@ -629,7 +622,7 @@ menu:
         prices:
           - $4.95
           - $8.49
-      - description: 'Ham, Salami & Provolone Cheese'
+      - description: Ham, Salami & Provolone Cheese
         name: Chef Salad
         prices:
           - $4.95
@@ -645,11 +638,11 @@ menu:
           - $8.49
       - name: Buffalo Chicken Finger Salad
         prices:
-          - 'null'
+          - "null"
           - $8.49
       - name: Buffalo Chicken Finger Caesar Salad
         prices:
-          - 'null'
+          - "null"
           - $8.49
       - name: Caesar Salad
         prices:
@@ -661,19 +654,19 @@ menu:
           - $8.49
       - name: Steak Tip Salad
         prices:
-          - 'null'
+          - "null"
           - $11.09
       - name: Steak Tip Caesar Salad
         prices:
-          - 'null'
+          - "null"
           - $11.09
       - name: BBQ Chicken Finger Salad
         prices:
-          - 'null'
+          - "null"
           - $8.49
       - name: BBQ Grilled Chicken Salad
         prices:
-          - 'null'
+          - "null"
           - $8.49
       - name: BBQ Pork
         prices:
@@ -690,8 +683,7 @@ menu:
       - Caesar
       - House
       - Balsamic Vinaigrette
-  - details: >-
-      All spaghetti dinners are served with garlic bread & choice of melted
+  - details: All spaghetti dinners are served with garlic bread & choice of melted
       mozzarella cheese or grated parmesan cheese
     extras: []
     items:
@@ -710,7 +702,7 @@ menu:
       - name: American Chop Suey
         prices:
           - $8.45
-      - name: 'Chicken, Broccoli Alfredo'
+      - name: Chicken, Broccoli Alfredo
         prices:
           - $10.25
     name: Pasta
@@ -725,7 +717,7 @@ menu:
       - Buffalo Chicken (spicy)
       - Meatballs
       - Grilled Chicken
-  - details: 'Served with French Fries, Onion Rings & Small Side Salad -or- Rice & Salad'
+  - details: Served with French Fries, Onion Rings & Small Side Salad -or- Rice & Salad
     extras: []
     items:
       - name: Chicken Finger
@@ -765,7 +757,7 @@ menu:
     sizes:
       - price
     toppings: []
-  - details: ''
+  - details: ""
     extras: []
     items:
       - name: 1/4lb Hamburger
@@ -805,7 +797,7 @@ menu:
     sizes:
       - price
     toppings: []
-  - details: Made in House by Pastry Chef William
+  - details: ""
     extras: []
     items:
       - name: Carrot Cake
@@ -815,18 +807,6 @@ menu:
         prices:
           - $3.25
       - name: Cheesecake
-        prices:
-          - $3.25
-      - name: Brownies
-        prices:
-          - $3.25
-      - name: Granola Bars
-        prices:
-          - $3.25
-      - name: Chocolate Truffles
-        prices:
-          - $3.25
-      - name: Gluten Free Whoopie Pies
         prices:
           - $3.25
     name: Deserts
