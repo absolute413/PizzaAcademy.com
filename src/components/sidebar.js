@@ -33,11 +33,6 @@ export default ({ location }) => (
             Specials
           </a>
         </li>
-        <li className="nav-item sidebar-nav-item">
-          <a href="#flavors" data-toggle="modal">
-            Ice Cream
-          </a>
-        </li>
         <li className={`nav-item sidebar-nav-item ${location.pathname === '/photos/' ? 'active' : null}`}>
           <a href="/photos/">Photos</a>
         </li>

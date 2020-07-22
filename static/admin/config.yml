@@ -108,17 +108,3 @@ collections:
         label: Price
         required: false
         widget: string
-
-  - name: flavors
-    label: Flavors
-    file: content/flavors.yaml
-    fields:
-    - name: flavors
-      label: Flavors
-      required: false
-      widget: list
-      fields:
-      - name: name
-        label: Name
-        required: false
-        widget: string

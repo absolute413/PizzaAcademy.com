@@ -6,7 +6,6 @@ import { siteMetadata } from '../../gatsby-config'
 import Hours from '../components/hours'
 import Contact from '../components/contact'
 import Specials from '../components/specials'
-import Flavors from '../components/flavors'
 
 export default ({ location }) => (
   <Layout location={location}>
@@ -16,7 +15,7 @@ export default ({ location }) => (
     </div>
 
     <div className="row">
-      <div className="col-md-6 col-md-push-3">
+      <div className="col-md-7 col-md-push-1">
         <div className="panel panel-default text-center">
           <div className="panel-heading">
             <h1 style={{ fontFamily: 'Arvo', textTransform: 'uppercase' }}>
@@ -49,12 +48,8 @@ export default ({ location }) => (
         </div>
       </div>
 
-      <div className="col-md-3 col-md-pull-6">
+      <div className="col-md-3 col-md-push-1">
         <Specials />
-      </div>
-
-      <div className="col-md-3">
-        <Flavors />
       </div>
     </div>
   </Layout>

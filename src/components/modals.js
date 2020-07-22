@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 
 import Specials from './specials'
-import Flavors from './flavors'
 import Hours from './hours'
 import Contact from './contact'
 import Location from './location'
@@ -26,29 +25,6 @@ export default () => (
               &times;
             </button>
             <Specials />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="modal fade" id="flavors">
-      <div className="modal-dialog modal-sm">
-        <div className="modal-content">
-          <div className="modal-body" style={{ padding: 0 }}>
-            <button
-              type="button"
-              className="close"
-              data-dismiss="modal"
-              style={{
-                marginTop: '8px',
-                marginRight: '13px',
-                color: '#fff',
-                opacity: 0.8,
-              }}
-            >
-              &times;
-            </button>
-            <Flavors />
           </div>
         </div>
       </div>
