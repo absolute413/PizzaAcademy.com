@@ -29,7 +29,7 @@ menu:
     items:
       - name: Sub
         prices:
-          - $6.25
+          - "null"
           - $7.60
       - name: Pizza
         prices:
@@ -360,106 +360,82 @@ menu:
     extras:
       - name: Feta Cheese
         prices:
-          - +$1.00
           - +$1.50
       - name: Bacon
         prices:
-          - +$1.00
           - +$1.50
     items:
       - description: Chicken Tenders, Mozzarella Sticks & French Fries - regular or spicy
         name: CMF
         prices:
-          - $7.50
           - $8.50
       - description: Marinated turnip, pickled pickle, Tahini sauce & fried chick peas
         name: Falafel
         prices:
-          - "null"
           - $8.25
       - description: Smoked in house 12 hours
         name: Pulled BBQ Pork
         prices:
-          - $6.75
           - $8.25
       - name: Grilled Chicken Caesar
         prices:
-          - "null"
           - $8.25
       - name: Chicken Cutlet
         prices:
-          - $6.75
           - $8.25
       - name: Grilled Chicken
         prices:
-          - $6.75
           - $8.25
       - name: Buffalo Chicken Finger
         prices:
-          - $6.75
           - $8.25
       - name: Chicken Finger
         prices:
-          - $6.75
           - $8.25
       - name: Meatball
         prices:
-          - $6.75
           - $8.25
       - name: BLT
         prices:
-          - $6.75
           - $8.25
       - name: Ham & Egg
         prices:
-          - $6.75
           - $8.25
       - name: Pepper & Egg
         prices:
-          - $6.75
           - $8.25
       - name: Gyro
         prices:
-          - $6.75
           - $8.25
       - name: Veal Cutlet
         prices:
-          - $6.75
           - $8.25
       - name: Steak Tip
         prices:
-          - $8.25
           - $10.25
       - name: Haddock Tail
         prices:
-          - $8.25
           - $10.25
       - description: Tossed with roast beef, ham, bacon, cheese & fresh vegetables
         name: Paul's Super
         prices:
-          - $6.75
           - $8.25
       - name: Cheeseburger
         prices:
-          - $6.75
           - $8.25
       - description: Our spicy sausage served with onions, peppers, sauce & melted
           provolone cheese
         name: Sausage Bomb
         prices:
-          - $6.75
           - $8.25
       - name: Grilled Veggie
         prices:
-          - $6.75
           - $8.25
       - name: Eggplant Cutlet
         prices:
-          - $6.75
           - $8.25
     name: Subs & Wraps (Hot)
     sizes:
-      - small
       - large
     toppings: []
   - details: Try any sub with teryiaki or hot sauce. All subs served on Italian sub
@@ -469,56 +445,45 @@ menu:
     items:
       - name: Chicken Salad
         prices:
-          - $6.75
           - $8.25
       - description: Mortadella, Genoa, Salami & Provolone Cheese
         name: Italian
         prices:
-          - $6.75
           - $8.25
       - description: American cheese, ham & Mortadella
         name: American
         prices:
-          - $6.75
           - $8.25
       - description: Yellowtail, all white
         name: Light Tuna
         prices:
-          - $6.75
           - $8.25
       - description: 98% Fat Free
         name: Smoked Turkey
         prices:
-          - $6.75
           - $8.25
       - description: Toasted with Cheese
         name: Beef, Bacon & Turkey
         prices:
-          - $6.75
           - $8.25
       - description: In house roasted
         name: Roast Beef
         prices:
-          - $6.75
           - $8.25
       - name: Imported Ham & Cheese
         prices:
-          - $6.75
           - $8.25
       - description: American & Provolone cheese with lettuce, tomatoes, pickles & onions
         name: Vegetarian
         prices:
-          - $6.75
           - $8.25
       - description: Our Syrian, with lettuce, tomato, onions, peppers, feta cheese,
           mushrooms & Greek olives with house dressing
         name: Kiki's Veggie
         prices:
-          - "null"
           - $8.25
     name: Subs & Wraps (Cold)
     sizes:
-      - small
       - large
     toppings: []
   - details: Try any sub with teryiaki or hot sauce. All subs served on Italian sub
@@ -528,52 +493,40 @@ menu:
       - name: Cheese
         prices:
           - +$0.30
-          - +$0.30
     items:
       - name: Steak Cheese
         prices:
-          - $6.75
           - $8.25
       - name: Steak Plain
         prices:
-          - $6.75
           - $8.25
       - name: Steak Pepperoni
         prices:
-          - $6.75
           - $8.25
       - name: Steak Roasted Pepper
         prices:
-          - $6.75
           - $8.25
       - name: Steak Onion
         prices:
-          - $6.75
           - $8.25
       - description: Peppers, Onions, Cheese, Tomatoes & Salami
         name: Steak Bomb
         prices:
-          - $6.95
           - $8.75
       - name: Steak Mushroom
         prices:
-          - $6.75
           - $8.25
       - name: Steak & Egg
         prices:
-          - $6.75
           - $8.25
       - name: Steak Teriyaki
         prices:
-          - $6.75
           - $8.25
       - name: Steak Garlic
         prices:
-          - $6.75
           - $8.25
     name: Subs & Wraps (Steak)
     sizes:
-      - small
       - large
     toppings: []
   - details: ""
