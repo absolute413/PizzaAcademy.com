@@ -3,7 +3,7 @@ import React from 'react'
 import { siteMetadata } from '../../gatsby-config'
 
 export default ({ location }) => (
-  <div className="sidebar">
+  <div className="sidebar hidden-print">
     <div className="sidebar-header">
       <button type="button" className="sidebar-toggle" data-toggle="collapse" data-target="#sidebar-nav-collapse">
         <div className="icon-bar" />

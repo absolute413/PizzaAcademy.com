@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import { flatMap } from 'lodash'
 
 import { menu } from '../../content/menu.yaml'
 
@@ -7,11 +8,11 @@ import Page from '../components/page'
 
 export default ({ location }) => (
   <Layout location={location}>
-    <div className="alert alert-info text-center">
+    <div className="alert alert-info text-center hidden-print">
       <strong style={{ fontSize: '1.25em' }}>Subs Available in Large Size Only</strong>
     </div>
 
-    <Page title="Menu">
+    <Page title="Menu" className="menu-page">
       {menu.map((category, idx) => (
         <table key={idx} className="table menu-table text-left">
           <thead>
@@ -40,7 +41,7 @@ export default ({ location }) => (
             {category.toppings.length ? (
               <tr>
                 <td className="text-center" colSpan={category.sizes.length + 1}>
-                  <h5>Toppings</h5>
+                  <h5 className="menu-title-toppings">Toppings</h5>
                   <div className="row">
                     {category.toppings.map((topping, idx) => (
                       <div key={idx} className="col-xs-6 col-sm-4 col-md-3 col-lg-2">
@@ -60,7 +61,7 @@ export default ({ location }) => (
                 </td>
                 {item.prices.map((price, idx) => (
                   <td key={idx} className="text-right" itemProp="offers" itemScope itemType="http://schema.org/Offer">
-                    {price === 'null' ? null : price}
+                    {price === 'null' ? null : intersperse(price.split('$'), <span className="hidden-print">$</span>)}
                   </td>
                 ))}
               </tr>
@@ -91,3 +92,9 @@ export default ({ location }) => (
     </Page>
   </Layout>
 )
+
+function intersperse(array, delimiter) {
+  return flatMap(array, (item, index) => {
+    return index === 0 ? item : [delimiter, item]
+  })
+}
