@@ -70,7 +70,11 @@ export default ({ location }) => (
             {/* <!-- Extras --> */}
             {category.extras.length ? (
               <tr>
-                <td colSpan={category.sizes.length + 1}>Extras</td>
+                <td colSpan={category.sizes.length + 1}>
+                  <small>
+                    <em>Extras</em>
+                  </small>
+                </td>
               </tr>
             ) : null}
             {category.extras.map((extra, idx) => (
