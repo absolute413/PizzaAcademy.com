@@ -6,11 +6,11 @@ menu:
       - name: Super
         prices:
           - "null"
-          - $5.95
+          - $7.25
       - name: Regular
         prices:
           - "null"
-          - $4.95
+          - $6.25
       - name: Calzone
         prices:
           - $7.79
